@@ -1,0 +1,23 @@
+name: Thread Project stock
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: thread-stock
+  cancel-in-progress: false
+jobs:
+  stock:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github
+      - run: pip install --quiet paramiko openpyxl
+      - run: python3 .github/scripts/thread_stock.py
+        env:
+          TP_PASS: ${{ secrets.TP_SFTP_PASS }}
+          GH_TOKEN: ${{ github.token }}
