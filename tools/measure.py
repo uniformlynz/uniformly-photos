@@ -130,9 +130,26 @@ def measure(path):
             col = np.where(m[:, xs_])[0]
             if len(col): shs.append(int(col[0]))
     sh = int(np.median(shs)) if shs else top
+    # the top of the shoulder where it meets the neck: follow the slope of the shoulder in from the sleeve (36% to 48%
+    # of the chest out from the centre, clear of a hood) and carry it in to 30% out, about where a hood sits. A hood or collar sitting higher in the
+    # middle doesn't move it, so it's the same point on a tee and a hoodie
+    hp = []
+    for sd in (-1, 1):
+        ts, yv = [], []
+        for t_ in np.linspace(0.36, 0.48, 8):
+            xx = int(round(cx + sd * t_ * cw))
+            if 0 <= xx < w:
+                col = np.where(m[:, xx])[0]
+                if len(col):
+                    ts.append(t_); yv.append(col[0])
+        if len(ts) >= 4:
+            b_, a_ = np.polyfit(ts, yv, 1)
+            hp.append(a_ + b_ * 0.30)
+    hps = int(round(np.median(hp))) if hp else sh
+    hps = max(top, min(hps, sh + int(0.12 * GH)))
     f = lambda v, n: int(round(v / n * 1000))
     return {'cx': f(cx, w), 'top': f(top, h), 'bot': f(bot, h), 'ctop': f(ctop, h), 'cy': f(cyv, h),
-            'cl': f(cx - cw / 2, w), 'cr': f(cx + cw / 2, w), 'cw': f(cw, w), 'l': f(left, w), 'r': f(right, w), 'sh': f(sh, h), 'k': flag}
+            'cl': f(cx - cw / 2, w), 'cr': f(cx + cw / 2, w), 'cw': f(cw, w), 'l': f(left, w), 'r': f(right, w), 'sh': f(sh, h), 'hps': f(hps, h), 'k': flag}
 
 if __name__ == '__main__':
     for p in sys.argv[1:]:

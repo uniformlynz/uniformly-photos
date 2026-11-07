@@ -38,9 +38,12 @@ if __name__ == '__main__':
             r = F[k]
             if ref and abs(r['cw'] - F[ref]['cw']) / F[ref]['cw'] > 0.08:
                 r = F[ref]
-            out[k] = [r['cx'], r['cy'], r['cw'], r['top'], r['bot'], r.get('sh', r['top'])]
+            out[k] = [r['cx'], r['cy'], r['cw'], r['top'], r['bot'], r.get('sh', r['top']), r.get('hps', r.get('sh', r['top']))]
     doc = {'v': time.strftime('%Y%m%d%H%M'),
-           'note': 'Where the garment sits in each flat photo, as thousandths of the image: [centre x, chest line y, chest width, top y, bottom y, shoulder y]. The chest line is just under the armpits; the shoulder y is the top of the garment beside the neck, which the collar and print placements are measured from. Worked out by tools/measure.py; a print at its real size is chest width x (print mm / garment half chest mm).',
+           'note': ('Where the garment sits in each flat photo, as thousandths of the image: [centre x, chest line y, chest width, top y, bottom y, '
+                    'shoulder y, shoulder point y]. The chest line is just under the armpits. The shoulder point is the top of the shoulder near the neck, '
+                    'found from the slope of the shoulders so a hood or collar does not move it; print placements are measured down from it. '
+                    'Worked out by tools/measure.py; a print at its real size is chest width x (print mm / garment half chest mm).'),
            'f': out}
     json.dump(doc, open(os.path.join(ROOT, 'fits.json'), 'w'), separators=(',', ':'))
     print(len(out), 'photos measured')
