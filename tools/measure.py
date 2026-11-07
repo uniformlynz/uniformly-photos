@@ -122,9 +122,17 @@ def measure(path):
             rb = int(np.median(rib) * 1.05)
             if cw > 1.1 * rb:
                 cw = rb; flag = 'rib'
+    # the shoulder line beside the neck: the top of the garment 30% of the chest out from the centre each side
+    # (clear of a hood or a collar). The collar and every print placement are measured down from here
+    shs = []
+    for xs_ in (int(cx - 0.30 * cw), int(cx + 0.30 * cw)):
+        if 0 <= xs_ < w:
+            col = np.where(m[:, xs_])[0]
+            if len(col): shs.append(int(col[0]))
+    sh = int(np.median(shs)) if shs else top
     f = lambda v, n: int(round(v / n * 1000))
     return {'cx': f(cx, w), 'top': f(top, h), 'bot': f(bot, h), 'ctop': f(ctop, h), 'cy': f(cyv, h),
-            'cl': f(cx - cw / 2, w), 'cr': f(cx + cw / 2, w), 'cw': f(cw, w), 'l': f(left, w), 'r': f(right, w), 'k': flag}
+            'cl': f(cx - cw / 2, w), 'cr': f(cx + cw / 2, w), 'cw': f(cw, w), 'l': f(left, w), 'r': f(right, w), 'sh': f(sh, h), 'k': flag}
 
 if __name__ == '__main__':
     for p in sys.argv[1:]:
