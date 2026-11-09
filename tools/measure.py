@@ -15,12 +15,43 @@ def load(path):
     sm = im.resize((max(1, round(W * k)), max(1, round(H * k))), Image.BILINEAR)
     return np.asarray(sm).astype(np.int16), W, H
 
-def mask_of(a):
+def bg_model(a):
+    """The backdrop as a shade across the photo (10 Nov 2026): some suppliers shoot on grey that darkens towards the
+    edges. Fits a plane per channel to the border pixels, dropping the ones that are garment."""
     h, w, _ = a.shape
-    border = np.concatenate([a[0], a[-1], a[:, 0], a[:, -1]])
-    bg = np.median(border, axis=0)
-    d = np.abs(a - bg).sum(axis=2)
-    m = d > 24
+    yy, xx = np.mgrid[0:h, 0:w]
+    b = np.zeros((h, w), bool); t = 3
+    b[:t] = b[-t:] = True; b[:, :t] = b[:, -t:] = True
+    X, Y, P = xx[b].astype(float), yy[b].astype(float), a[b].astype(float)
+    A = np.stack([np.ones_like(X), X / w, Y / h], axis=1)
+    lum = P.sum(axis=1); keep = lum >= np.median(lum)
+    coef = None
+    for _ in range(4):
+        if keep.sum() < 20:
+            break
+        coef, *_ = np.linalg.lstsq(A[keep], P[keep], rcond=None)
+        res = np.abs(A @ coef - P).sum(axis=1)
+        keep = res < max(18.0, np.percentile(res[keep], 80) * 1.5)
+    if coef is None:
+        return np.median(P, axis=0)[None, None, :]
+    return np.stack([np.ones((h, w)), xx / w, yy / h], axis=2) @ coef
+
+def flat_bg(a):
+    return np.median(np.concatenate([a[0], a[-1], a[:, 0], a[:, -1]]), axis=0)
+
+def mask_of(a, shaded=False):
+    h, w, _ = a.shape
+    if not shaded:
+        d = np.abs(a - flat_bg(a)).sum(axis=2)
+        m = d > 24
+    else:
+        # a shaded backdrop: modelled as a shade, with a cut-off that scales with how far the garment sits from it,
+        # so a black tee isn't joined to the shadow around it
+        bg = bg_model(a)
+        d = np.abs(a - bg).sum(axis=2)
+        gc = np.median(a[int(h * 0.35):int(h * 0.65), int(w * 0.4):int(w * 0.6)].reshape(-1, 3), axis=0)
+        sep = float(np.abs(gc - np.median(np.broadcast_to(bg, a.shape).reshape(-1, 3), axis=0)).sum())
+        m = d > min(120.0, max(24.0, 0.3 * sep))
     m = ndi.binary_closing(m, structure=np.ones((5, 5)), iterations=2)
     m = ndi.binary_fill_holes(m)
     lab, n = ndi.label(m)
@@ -31,8 +62,31 @@ def mask_of(a):
     return lab == keep
 
 def measure(path):
+    """Measures with a plain backdrop first. A shaded backdrop (grey darkening to the edges) can join the shadow to the
+    garment and push the centre line off to one side, so the shaded way is measured too. It wins only when it reads
+    sensibly and sits clearly nearer the middle (every photo in the library is centred when it's made). 10 Nov 2026"""
     a, W, H = load(path)
-    m = mask_of(a)
+    r0 = _measure(a, mask_of(a), False)
+    m2 = mask_of(a, True)
+    r1 = _measure(a, m2, True) if m2 is not None else None
+    if r1 and r1['cw'] >= 150 and (not r0 or (abs(r1['cx'] - 500) + 20 < abs(r0['cx'] - 500) and r1['cw'] >= 0.7 * r0['cw'])):
+        return r1
+    if r0 and r0['cw'] >= 150:
+        return r0
+    # a white garment on a white or pale grey backdrop: neither reads, so look again with a finer cut-off
+    for thr in (14, 10, 8):
+        m = np.abs(a - flat_bg(a)).sum(axis=2) > thr
+        m = ndi.binary_fill_holes(ndi.binary_closing(m, structure=np.ones((5, 5)), iterations=2))
+        lab, n = ndi.label(m)
+        if not n:
+            continue
+        sizes = ndi.sum(m, lab, range(1, n + 1))
+        r = _measure(a, lab == (1 + int(np.argmax(sizes))), False)
+        if r and r['cw'] >= 150 and abs(r['cx'] - 500) <= 60:
+            return r
+    return r0
+
+def _measure(a, m, shaded):
     if m is None or m.sum() < 500:
         return None
     h, w = m.shape
@@ -96,7 +150,7 @@ def measure(path):
     # alone: if the chest came out much wider than that, the arms were in it. Looked for on a lightly closed mask, so a
     # narrow gap under the arm isn't closed over, and above the hem rib, which pulls in narrower than the chest
     if flag != 'arm':
-        raw = ndi.binary_fill_holes(ndi.binary_closing(np.abs(a - np.median(np.concatenate([a[0], a[-1], a[:, 0], a[:, -1]]), axis=0)).sum(axis=2) > 24, structure=np.ones((3, 3))))
+        raw = ndi.binary_fill_holes(ndi.binary_closing(np.abs(a - (bg_model(a) if shaded else flat_bg(a))).sum(axis=2) > 24, structure=np.ones((3, 3))))
         bw = []
         for y in range(top + int(GH * 0.42), top + int(GH * 0.82)):
             row = raw[y]

@@ -39,6 +39,16 @@ if __name__ == '__main__':
             if ref and abs(r['cw'] - F[ref]['cw']) / F[ref]['cw'] > 0.08:
                 r = F[ref]
             out[k] = [r['cx'], r['cy'], r['cw'], r['top'], r['bot'], r.get('sh', r['top']), r.get('hps', r.get('sh', r['top']))]
+    # hand corrections for the odd photo the measuring gets wrong (tools/fits_fix.json: a path pattern and the values to set)
+    import fnmatch
+    fx = os.path.join(HERE, 'fits_fix.json')
+    if os.path.exists(fx):
+        names = ['cx', 'cy', 'cw', 'top', 'bot', 'sh', 'hps']
+        for pat, vals in json.load(open(fx)).get('fix', {}).items():
+            for k in out:
+                if out[k] and fnmatch.fnmatch(k, pat):
+                    for nm, v in vals.items():
+                        out[k][names.index(nm)] = v
     doc = {'v': time.strftime('%Y%m%d%H%M'),
            'note': ('Where the garment sits in each flat photo, as thousandths of the image: [centre x, chest line y, chest width, top y, bottom y, '
                     'shoulder y, shoulder point y]. The chest line is just under the armpits. The shoulder point is the top of the shoulder near the neck, '

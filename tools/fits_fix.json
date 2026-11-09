@@ -1,0 +1,32 @@
+{
+ "note": "Hand corrections applied after measuring, by path pattern (10 Nov 2026). Bags: the width is the bag body, not the handles, since bag prints are scaled from it. 2518: the front reads wrong, so it takes its back photo's readings (same framing).",
+ "fix": {
+  "aussie-pacific/2518/*-front.webp": {
+   "cx": 506,
+   "cy": 422,
+   "cw": 480,
+   "top": 13,
+   "bot": 947,
+   "sh": 87,
+   "hps": 69
+  },
+  "thread-project/5001-black/black-front.webp": {
+   "cw": 313
+  },
+  "thread-project/5001-natural/natural-front.webp": {
+   "cw": 318
+  },
+  "thread-project/5009/natural-black-front.webp": {
+   "cw": 256
+  },
+  "thread-project/5015/white-front.webp": {
+   "cx": 511,
+   "cw": 557,
+   "top": 23,
+   "bot": 975
+  },
+  "thread-project/5014/white-black-front.webp": {
+   "cw": 443
+  }
+ }
+}
