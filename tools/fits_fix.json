@@ -1,5 +1,5 @@
 {
- "note": "Hand corrections applied after measuring, by path pattern (10 Nov 2026). Bags: the width is the bag body, not the handles, since bag prints are scaled from it. 2518: the front reads wrong, so it takes its back photo's readings (same framing).",
+ "note": "Hand corrections applied after measuring, by path pattern (10 Nov 2026). Bags: the width is the bag body, not the handles, since bag prints are scaled from it. 2518: the front reads wrong, so it takes its back photo's readings (same framing). keep_own: C-Force photos of one style come from different shoots (different framing), so these keep their own reading instead of taking a sibling colour's (checked by eye, 10 Nov 2026). The white C-Force shirts, TL500 and AQS01 gold read wrong on their pale backdrops, so they're set by hand from a grid.",
  "fix": {
   "aussie-pacific/2518/*-front.webp": {
    "cx": 506,
@@ -27,6 +27,139 @@
   },
   "thread-project/5014/white-black-front.webp": {
    "cw": 443
+  },
+  "c-force/sus01*/white-front.webp": {
+   "cx": 500,
+   "cy": 480,
+   "cw": 490,
+   "top": 150,
+   "bot": 840,
+   "sh": 215,
+   "hps": 215
+  },
+  "c-force/sus02*/white-front.webp": {
+   "cx": 495,
+   "cy": 440,
+   "cw": 400,
+   "top": 265,
+   "bot": 745,
+   "sh": 300,
+   "hps": 300
+  },
+  "c-force/sus03*/white-front.webp": {
+   "cx": 550,
+   "cy": 440,
+   "cw": 520,
+   "top": 205,
+   "bot": 810,
+   "sh": 250,
+   "hps": 250
+  },
+  "c-force/tl500/black-front.webp": {
+   "cx": 500,
+   "cy": 330,
+   "cw": 420,
+   "top": 180,
+   "bot": 825,
+   "sh": 200,
+   "hps": 200
+  },
+  "c-force/tl500/white-front.webp": {
+   "cx": 495,
+   "cy": 330,
+   "cw": 390,
+   "top": 195,
+   "bot": 830,
+   "sh": 215,
+   "hps": 215
+  },
+  "c-force/tl500/sports-marle-front.webp": {
+   "cx": 495,
+   "cy": 330,
+   "cw": 410,
+   "top": 175,
+   "bot": 825,
+   "sh": 195,
+   "hps": 195
+  },
+  "c-force/aqs01/black-rich-gold-front.webp": {
+   "cx": 485,
+   "cy": 400,
+   "cw": 530,
+   "top": 85,
+   "bot": 910,
+   "sh": 95,
+   "hps": 130
+  },
+  "c-force/v1000/*-front.webp": {
+   "hps": 160
+  },
+  "c-force/v1000w/*-front.webp": {
+   "hps": 175
   }
- }
+ },
+ "keep_own": [
+  "c-force/ap230/navy-white-front.webp",
+  "c-force/ap500/black-lime-front.webp",
+  "c-force/ap500/black-yellow-front.webp",
+  "c-force/apf/forest-green-front.webp",
+  "c-force/apf/navy-front.webp",
+  "c-force/aqp01/maroon-rich-gold-front.webp",
+  "c-force/aqs01/royal-blue-white-front.webp",
+  "c-force/aqt01/black-red-front.webp",
+  "c-force/aqt01/bottle-rich-gold-front.webp",
+  "c-force/aqt01/navy-white-front.webp",
+  "c-force/fp118/navy-ice-blue-front.webp",
+  "c-force/fp118/navy-red-front.webp",
+  "c-force/fp118u/black-magenta-front.webp",
+  "c-force/fp118u/black-powder-blue-front.webp",
+  "c-force/fp130/navy-front.webp",
+  "c-force/fp131/lime-black-front.webp",
+  "c-force/hc01/sports-marle-front.webp",
+  "c-force/hp02/black-front.webp",
+  "c-force/hp07/bottle-green-front.webp",
+  "c-force/hp07/charcoal-front.webp",
+  "c-force/hp07/emerald-green-front.webp",
+  "c-force/hp07/rich-gold-front.webp",
+  "c-force/hp08/emerald-green-front.webp",
+  "c-force/kp118/navy-ice-blue-front.webp",
+  "c-force/kp200/powder-blue-front.webp",
+  "c-force/kp230/navy-white-front.webp",
+  "c-force/kqs01/royal-blue-white-front.webp",
+  "c-force/kqt01/black-red-front.webp",
+  "c-force/kqt01/bottle-rich-gold-front.webp",
+  "c-force/kqt01/navy-white-front.webp",
+  "c-force/kt190/cambridge-front.webp",
+  "c-force/kt190/cobalt-front.webp",
+  "c-force/kt190/pebble-front.webp",
+  "c-force/kt190/yellow-front.webp",
+  "c-force/ktj01/royal-blue-white-front.webp",
+  "c-force/ktp01/black-front.webp",
+  "c-force/ktp01/bottle-front.webp",
+  "c-force/ktp01/royal-blue-front.webp",
+  "c-force/lv220/black-front.webp",
+  "c-force/mt170u/black-fluoro-lime-front.webp",
+  "c-force/mt170u/black-fluoro-orange-front.webp",
+  "c-force/mt170u/bottle-white-front.webp",
+  "c-force/mt170u/white-charcoal-front.webp",
+  "c-force/p180/slate-front.webp",
+  "c-force/p185/slate-front.webp",
+  "c-force/p210/slate-front.webp",
+  "c-force/p210/sports-marle-front.webp",
+  "c-force/qp130/navy-front.webp",
+  "c-force/qp132/black-aqua-front.webp",
+  "c-force/qp135/black-gold-front.webp",
+  "c-force/qp230/navy-white-front.webp",
+  "c-force/sup02/grey-front.webp",
+  "c-force/sup02a/grey-front.webp",
+  "c-force/sup02ab/grey-front.webp",
+  "c-force/t190/yellow-front.webp",
+  "c-force/t300w/khaki-front.webp",
+  "c-force/t300w/navy-front.webp",
+  "c-force/t300w/orange-front.webp",
+  "c-force/t300w/pacific-blue-front.webp",
+  "c-force/t300w/red-front.webp",
+  "c-force/t350w/sports-marle-front.webp",
+  "c-force/t600/bottle-front.webp"
+ ]
 }

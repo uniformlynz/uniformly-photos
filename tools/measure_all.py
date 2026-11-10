@@ -29,6 +29,11 @@ if __name__ == '__main__':
             b, s, f = k.split('/')
             grp[(b, s, 'back' if f.endswith('-back.webp') else 'front')].append(k)
     out = {}
+    # photos that keep their own reading even when a sibling colour reads differently (a brand whose colours come from
+    # different shoots, checked by eye): tools/fits_fix.json "keep_own"
+    import fnmatch
+    fx = os.path.join(HERE, 'fits_fix.json')
+    own = set(json.load(open(fx)).get('keep_own', [])) if os.path.exists(fx) else set()
     for L in grp.values():
         ref = None
         if len(L) >= 3:
@@ -36,12 +41,10 @@ if __name__ == '__main__':
             ref = min(L, key=lambda k: abs(F[k]['cw'] - m))
         for k in L:
             r = F[k]
-            if ref and abs(r['cw'] - F[ref]['cw']) / F[ref]['cw'] > 0.08:
+            if ref and k not in own and abs(r['cw'] - F[ref]['cw']) / F[ref]['cw'] > 0.08:
                 r = F[ref]
             out[k] = [r['cx'], r['cy'], r['cw'], r['top'], r['bot'], r.get('sh', r['top']), r.get('hps', r.get('sh', r['top']))]
     # hand corrections for the odd photo the measuring gets wrong (tools/fits_fix.json: a path pattern and the values to set)
-    import fnmatch
-    fx = os.path.join(HERE, 'fits_fix.json')
     if os.path.exists(fx):
         names = ['cx', 'cy', 'cw', 'top', 'bot', 'sh', 'hps']
         for pat, vals in json.load(open(fx)).get('fix', {}).items():
