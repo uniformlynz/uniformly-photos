@@ -5,7 +5,8 @@ Their prices (Gold, Silver) are Hayden's trade prices and are never written out.
 import base64, hashlib, io, json, os, re, stat, subprocess, sys, tempfile, time
 import paramiko, openpyxl
 
-HOST, USER = '[their SFTP address, now a secret]', '[their SFTP login, now a secret]'
+# their address and the login name are kept in the repo's secrets, not here (11 Nov 2026, his call)
+HOST, USER = os.environ.get('TP_HOST') or sys.exit('The TP_SFTP_HOST secret is not set yet'), os.environ.get('TP_USER') or sys.exit('The TP_SFTP_USER secret is not set yet')
 FINGERPRINT = '/90Kc8DhIdbERJ1oTUdA5ypf+7YjNT2U/44hHPEvQyI'   # their ed25519 host key, SHA256
 PASS = os.environ.get('TP_PASS') or sys.exit('The TP_SFTP_PASS secret is not set yet')
 

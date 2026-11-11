@@ -20,6 +20,8 @@ jobs:
       - run: python3 .github/scripts/thread_stock.py
         env:
           TP_PASS: ${{ secrets.TP_SFTP_PASS }}
+          TP_HOST: ${{ secrets.TP_SFTP_HOST }}
+          TP_USER: ${{ secrets.TP_SFTP_USER }}
           CLOKE_USER: ${{ secrets.CLOKE_USER }}
           CLOKE_PASS: ${{ secrets.CLOKE_PASS }}
           CLOKE_KEY: ${{ secrets.CLOKE_KEY }}
