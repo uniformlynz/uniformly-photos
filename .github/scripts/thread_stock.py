@@ -1,6 +1,7 @@
-"""Every 15 minutes: read Thread Project's live file over SFTP and publish STOCK ONLY (no prices)
-to the `stock` branch as thread-project.json, for the Uniformly workshop and website.
-The Gold prices in that file are Hayden's trade prices and are never written out."""
+"""Every 15 minutes: read Thread Project's live file over SFTP, and Cloke's API, and publish STOCK ONLY (no prices)
+to the `stock` branch as thread-project.json and cloke.json, for the Uniformly workshop and website.
+Their prices (Gold, Silver) are Hayden's trade prices and are never written out.
+11 Nov 2026: Cloke added. Each supplier is on its own: one failing leaves the other's last file in place."""
 import base64, hashlib, io, json, os, re, stat, subprocess, sys, tempfile, time
 import paramiko, openpyxl
 
@@ -59,12 +60,72 @@ for r in rows[1:]:
 
 out = {'sup': 'Thread Project', 'file': f.filename, 'fileAt': int(f.st_mtime * 1000),
        'readAt': int(time.time() * 1000), 'rows': n, 'items': items}
+
+# ---- Cloke: their API, stock only ----
+def cloke_stock():
+    import urllib.request, urllib.error
+    u, p = os.environ.get('CLOKE_USER'), os.environ.get('CLOKE_PASS')
+    if not u or not p: print('Cloke: no secrets yet, skipped'); return None
+    auth = 'Basic ' + base64.b64encode(('%s:%s' % (u, p)).encode()).decode()
+    low = lambda o: {re.sub(r'[\s_\-]', '', k.lower()): v for k, v in o.items()} if isinstance(o, dict) else {}
+    def get(o, *ns):
+        L = low(o)
+        for x in ns:
+            v = L.get(re.sub(r'[\s_\-]', '', x.lower()))
+            if v not in (None, ''): return v
+        return None
+    prods, page = [], 1
+    while page < 200:
+        req = urllib.request.Request('https://apical.beyondexpectations.co.nz/api/banbury/products?pageNum=%d&pageSize=250' % page, headers={'Authorization': auth, 'Accept': 'application/json', 'User-Agent': 'Uniformly workshop'})
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r: body = json.loads(r.read().decode('utf-8'))
+        except urllib.error.HTTPError as e:
+            print('Cloke: page %d said %d' % (page, e.code)); return None
+        lst = body if isinstance(body, list) else (get(body, 'products', 'data', 'items', 'results', 'records') or [])
+        prods += lst
+        if len(lst) < 250: break
+        page += 1
+    its, rows = {}, 0
+    for P in prods:
+        code = str(get(P, 'styleCode', 'style', 'code') or '').strip()
+        if not code: continue
+        it = its.setdefault(code, {'name': str(get(P, 'name', 'productName') or '').strip(), 'cols': {}})
+        for O in (get(P, 'productOptions', 'options', 'variants') or []):
+            rows += 1
+            col = str(get(O, 'optionValue', 'colour', 'color', 'colourName') or 'One colour').strip()
+            C = it['cols'].setdefault(re.sub(r'\s+', '', col.lower()), {'label': col, 'sz': {}})
+            size = str(get(O, 'size', 'sizeName') or '').strip()
+            try: st = int(round(float(get(O, 'stockAvailable', 'stock', 'available', 'qty') or 0)))
+            except Exception: st = 0
+            C['sz'][szkey(size) if size else 'OS'] = {'s': st, 'lab': size or 'one size'}
+    # only the styles he carries (a folder in the library's cloke/), so the file the workshop downloads stays small
+    try:
+        rq = urllib.request.Request('https://api.github.com/repos/%s/contents/cloke' % os.environ['GITHUB_REPOSITORY'], headers={'Authorization': 'Bearer ' + os.environ['GH_TOKEN'], 'Accept': 'application/vnd.github+json'})
+        with urllib.request.urlopen(rq, timeout=30) as r: mine = set(x['name'].upper() for x in json.loads(r.read().decode()) if x.get('type') == 'dir')
+        if mine: its = {k: v for k, v in its.items() if k.upper() in mine}
+    except Exception: pass
+    now = int(time.time() * 1000)
+    print('Cloke: %d options, %d of his styles' % (rows, len(its)))
+    top = max([e['s'] for it in its.values() for C in it['cols'].values() for e in C['sz'].values()] or [0])
+    o = {'sup': 'Cloke', 'file': 'Cloke API', 'fileAt': now, 'readAt': now, 'rows': rows, 'items': its}
+    if top == 99: o['capped'] = 99
+    return o
+
+try: ck = cloke_stock()
+except Exception as e: print('Cloke: failed (%s)' % type(e).__name__); ck = None
+
+repo = 'https://x-access-token:%s@github.com/%s.git' % (os.environ['GH_TOKEN'], os.environ['GITHUB_REPOSITORY'])
 d = tempfile.mkdtemp()
+# start from what's there, so a supplier that failed this time keeps its last file
+subprocess.run(['git', 'clone', '-q', '--depth', '1', '-b', 'stock', repo, d], check=False)
+subprocess.run(['rm', '-rf', os.path.join(d, '.git')], check=False)
 with open(os.path.join(d, 'thread-project.json'), 'w') as fh:
     fh.write(json.dumps(out, separators=(',', ':'), ensure_ascii=False))
+if ck:
+    with open(os.path.join(d, 'cloke.json'), 'w') as fh:
+        fh.write(json.dumps(ck, separators=(',', ':'), ensure_ascii=False))
 with open(os.path.join(d, 'README.md'), 'w') as fh:
-    fh.write('Thread Project stock levels, refreshed every 15 minutes. Stock only, no prices.\n')
-repo = 'https://x-access-token:%s@github.com/%s.git' % (os.environ['GH_TOKEN'], os.environ['GITHUB_REPOSITORY'])
+    fh.write('Thread Project and Cloke stock levels, refreshed every 15 minutes. Stock only, no prices.\n')
 who = ['-c', 'user.name=uniformly-stock', '-c', 'user.email=uniformly@uniformly.co.nz']
 
 def g(*a):

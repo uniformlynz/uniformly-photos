@@ -1,4 +1,4 @@
-name: Thread Project stock
+name: Supplier stock (Thread Project, Cloke)
 on:
   schedule:
     - cron: '*/15 * * * *'
@@ -20,4 +20,6 @@ jobs:
       - run: python3 .github/scripts/thread_stock.py
         env:
           TP_PASS: ${{ secrets.TP_SFTP_PASS }}
+          CLOKE_USER: ${{ secrets.CLOKE_USER }}
+          CLOKE_PASS: ${{ secrets.CLOKE_PASS }}
           GH_TOKEN: ${{ github.token }}
