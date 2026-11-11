@@ -64,9 +64,16 @@ out = {'sup': 'Thread Project', 'file': f.filename, 'fileAt': int(f.st_mtime * 1
 # ---- Cloke: their API, stock only ----
 def cloke_stock():
     import urllib.request, urllib.error
-    u, p = os.environ.get('CLOKE_USER'), os.environ.get('CLOKE_PASS')
-    if not u or not p: print('Cloke: no secrets yet, skipped'); return None
-    auth = 'Basic ' + base64.b64encode(('%s:%s' % (u, p)).encode()).decode()
+    u = os.environ.get('CLOKE_USER'); tries = [x for x in (os.environ.get('CLOKE_PASS'), os.environ.get('CLOKE_KEY')) if x]
+    if not u or not tries: print('Cloke: no secrets yet, skipped'); return None
+    auth = None
+    for p in tries:   # the password, then the API key if Cloke turn the password down
+        a = 'Basic ' + base64.b64encode(('%s:%s' % (u, p)).encode()).decode()
+        try:
+            with urllib.request.urlopen(urllib.request.Request('https://apical.beyondexpectations.co.nz/api/banbury/products?pageNum=1&pageSize=1', headers={'Authorization': a, 'Accept': 'application/json', 'User-Agent': 'Uniformly workshop'}), timeout=60) as r: r.read()
+            auth = a; break
+        except urllib.error.HTTPError as e: print('Cloke: login said %d' % e.code)
+    if not auth: return None
     low = lambda o: {re.sub(r'[\s_\-]', '', k.lower()): v for k, v in o.items()} if isinstance(o, dict) else {}
     def get(o, *ns):
         L = low(o)

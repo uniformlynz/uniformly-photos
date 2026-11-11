@@ -22,4 +22,5 @@ jobs:
           TP_PASS: ${{ secrets.TP_SFTP_PASS }}
           CLOKE_USER: ${{ secrets.CLOKE_USER }}
           CLOKE_PASS: ${{ secrets.CLOKE_PASS }}
+          CLOKE_KEY: ${{ secrets.CLOKE_KEY }}
           GH_TOKEN: ${{ github.token }}
