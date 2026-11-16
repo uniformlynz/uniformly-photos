@@ -59,7 +59,8 @@ for r in rows[1:]:
         st = 0
     C['sz'][szkey(r[iO])] = {'s': st, 'lab': str(r[iO] or '').strip() or 'one size'}
 
-out = {'sup': 'Thread Project', 'file': f.filename, 'fileAt': int(f.st_mtime * 1000),
+out = {'sup': 'Thread Project', 'file': 'Thread Project stock',   # 17 Nov 2026: not their report's name, which says his price tier
+ 'fileAt': int(f.st_mtime * 1000),
        'readAt': int(time.time() * 1000), 'rows': n, 'items': items}
 
 # ---- Cloke: their API, stock only ----
@@ -71,7 +72,7 @@ def cloke_stock():
     for p in tries:   # the password, then the API key if Cloke turn the password down
         a = 'Basic ' + base64.b64encode(('%s:%s' % (u, p)).encode()).decode()
         try:
-            with urllib.request.urlopen(urllib.request.Request('https://apical.beyondexpectations.co.nz/api/banbury/products?pageNum=1&pageSize=1', headers={'Authorization': a, 'Accept': 'application/json', 'User-Agent': 'Uniformly workshop'}), timeout=60) as r: r.read()
+            with urllib.request.urlopen(urllib.request.Request('https://apical.beyondexpectations.co.nz/api/banbury/products?pageNum=1&pageSize=1', headers={'Authorization': a, 'Accept': 'application/json', 'User-Agent': 'stock-sync'}), timeout=60) as r: r.read()
             auth = a; break
         except urllib.error.HTTPError as e: print('Cloke: login said %d' % e.code)
     if not auth: return None
@@ -84,7 +85,7 @@ def cloke_stock():
         return None
     prods, page = [], 1
     while page < 200:
-        req = urllib.request.Request('https://apical.beyondexpectations.co.nz/api/banbury/products?pageNum=%d&pageSize=250' % page, headers={'Authorization': auth, 'Accept': 'application/json', 'User-Agent': 'Uniformly workshop'})
+        req = urllib.request.Request('https://apical.beyondexpectations.co.nz/api/banbury/products?pageNum=%d&pageSize=250' % page, headers={'Authorization': auth, 'Accept': 'application/json', 'User-Agent': 'stock-sync'})
         try:
             with urllib.request.urlopen(req, timeout=60) as r: body = json.loads(r.read().decode('utf-8'))
         except urllib.error.HTTPError as e:
@@ -134,7 +135,7 @@ if ck:
         fh.write(json.dumps(ck, separators=(',', ':'), ensure_ascii=False))
 with open(os.path.join(d, 'README.md'), 'w') as fh:
     fh.write('Thread Project and Cloke stock levels, refreshed every 15 minutes. Stock only, no prices.\n')
-who = ['-c', 'user.name=uniformly-stock', '-c', 'user.email=uniformly@uniformly.co.nz']
+who = ['-c', 'user.name=stock-sync', '-c', 'user.email=41898282+github-actions[bot]@users.noreply.github.com']   # 17 Nov 2026: nothing of his on a public repo
 
 def g(*a):
     subprocess.run(['git', '-C', d] + list(a), check=True)
@@ -144,4 +145,4 @@ g('checkout', '-q', '-b', 'stock')
 g(*who, 'add', '.')
 g(*who, 'commit', '-qm', 'Thread Project stock %s' % time.strftime('%Y-%m-%d %H:%M UTC'))
 g('push', '-q', '--force', repo, 'stock')   # one commit, replaced each time, so the repo doesn't grow
-print('Published %d lines from %s' % (n, f.filename))
+print('Published %d lines' % n)
