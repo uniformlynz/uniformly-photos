@@ -104,7 +104,9 @@ def fb_colours():
             except Exception as e: print('Fashion Biz %s page %d: %s' % (slug_, page, type(e).__name__)); break
             for Pd in L.get('products') or []:
                 code = str(Pd.get('code') or '').strip()
-                if not code or str(Pd.get('slug') or '').endswith('-clearance'): continue
+                if not code: continue
+                # a clearance listing is its own card (code + "-CLR"), with its own colour photos
+                if str(Pd.get('slug') or '').endswith('-clearance') or str(Pd.get('sales_status') or '').lower() == 'clearance': code = code + '-CLR'
                 for C in Pd.get('colors') or []:
                     col = str(C.get('name') or '').strip(); ims = C.get('images') or []
                     if not col or not ims: continue
@@ -126,8 +128,8 @@ def add_fb(P, feed):
         have = P['brands'].setdefault(brand, {})
         for code, cols in sorted(styles.items()):
             cu = code.upper()
-            if cu not in have: continue
-            cur = have[cu]; hn = {norm(c) for c in cur}; fn = {norm(c) for c in cols}
+            if cu not in have and not cu.endswith('-CLR'): continue
+            cur = have.setdefault(cu, {}); hn = {norm(c) for c in cur}; fn = {norm(c) for c in cols}
             spare = [h for h in hn if h not in fn]
             for col, u in sorted(cols.items()):
                 if norm(col) in hn or not u.get('front'): continue
@@ -144,6 +146,7 @@ def add_fb(P, feed):
                     im.save(os.path.join(ROOT, rel), 'WEBP', quality=82, method=6); paths.append(rel); time.sleep(0.3)
                 if paths: cur[col] = paths; added.append([brand, code, col])
             gone += [[brand, code, c] for c in cur if norm(c) not in fn]
+            if not cur: del have[cu]
     return added, gone
 
 def add(P, brand, folder, feed, new_styles):
