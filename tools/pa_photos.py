@@ -34,19 +34,34 @@ def sample(lst):
         rep.append([x['code'], x['name'], 200, w, h])
     with ThreadPoolExecutor(8) as ex: list(ex.map(one, lst))
     json.dump(sorted(rep), open(os.path.join(out, 'report.json'), 'w'), indent=0)
+def flat(im):
+    """a flat product shot is on pure white; their model shots are on a grey studio wall"""
+    w, h = im.size; px = [im.getpixel((x, y)) for x in (3, w - 4) for y in (3, h - 4)]
+    return sum(sum(c) / 3 for c in px) / 4 > 247
 def full(lst):
+    """each colour comes with its photos in order (A1, B1, C1, D1). Premium Apparel's sets are either flat front and back,
+    or a model front and back then the flat front and back: the flats are told apart by their white background"""
     base = os.path.join(ROOT, 'premium-apparel'); P = json.load(open(os.path.join(ROOT, 'photos.json')))
-    keep = set(); rep = {'ok': 0, 'missing': []}; got = {}
+    keep = set(); rep = {'ok': 0, 'missing': [], 'noflat': []}; got = {}
     def one(x):
         d = os.path.join(base, x['code'].lower()); os.makedirs(d, exist_ok=True); paths = []
+        roles = {}
+        rels = {r: 'premium-apparel/%s/%s-%s.webp' % (x['code'].lower(), x['slug'], r) for r in ('front', 'back', 'model')}
+        flats, models = [], []
+        for u in x['urls']:
+            b, st = get(u)
+            if b is None: rep['missing'].append([x['code'], x['colour'], u.split('/')[-1], st]); continue
+            im = to_rgb(Image.open(io.BytesIO(b)))
+            (flats if flat(im) else models).append(im)
+        if not flats and models: rep['noflat'].append([x['code'], x['colour']]); flats = models[:2]; models = models[2:]
+        if flats: roles['front'] = flats[0]
+        if len(flats) > 1: roles['back'] = flats[1]
+        if models: roles['model'] = models[0]
         for role in ('front', 'back', 'model'):
-            u = x.get(role)
-            if not u: continue
-            rel = 'premium-apparel/%s/%s-%s.webp' % (x['code'].lower(), x['slug'], role); f = os.path.join(ROOT, rel)
-            if not os.path.exists(f):
-                b, st = get(u)
-                if b is None: rep['missing'].append([x['code'], x['colour'], role, st]); continue
-                im = to_rgb(Image.open(io.BytesIO(b)))
+            if role not in roles: continue
+            rel = rels[role]; f = os.path.join(ROOT, rel)
+            im = roles[role]
+            if True:
                 im.thumbnail((733, 1100) if role == 'model' else (900, 900), Image.LANCZOS)
                 im.save(f, 'WEBP', quality=82, method=6)
             keep.add(rel); paths.append(rel)
@@ -63,7 +78,7 @@ def full(lst):
     P['v'] = time.strftime('%Y%m%d%H%M')
     json.dump(P, open(os.path.join(ROOT, 'photos.json'), 'w'), separators=(',', ':'))
     json.dump(rep, open(os.path.join(HERE, 'pa_report.json'), 'w'), indent=0)
-    print('colours with photos', rep['ok'], 'missing', len(rep['missing']))
+    print('colours with photos', rep['ok'], 'missing', len(rep['missing']), 'no flat shot', len(rep['noflat']))
 if __name__ == '__main__':
     mode, lf = sys.argv[1], sys.argv[2]; lst = json.load(open(lf))
     sample(lst) if mode == 'sample' else full(lst)
