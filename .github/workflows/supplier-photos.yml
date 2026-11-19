@@ -1,6 +1,6 @@
 # Weekly photos from Thread Project's stock file and Cloke's API (20 Nov 2026, his call): new colours get a front photo,
 # photos already in the library are left alone, and colours they've dropped are only listed (tools/feed_photos_report.json)
-name: Supplier photos (Thread Project, Cloke)
+name: Supplier photos (Thread Project, Fashion Biz, Cloke)
 on:
   schedule:
     - cron: '37 14 * * 6'   # Sunday 3:37am NZ
@@ -28,6 +28,7 @@ jobs:
           CLOKE_USER: ${{ secrets.CLOKE_USER }}
           CLOKE_PASS: ${{ secrets.CLOKE_PASS }}
           CLOKE_KEY: ${{ secrets.CLOKE_KEY }}
+          FB_TOKEN: ${{ secrets.FASHIONBIZ_API_TOKEN }}
         run: python3 tools/feed_photos.py && python3 tools/measure_all.py
       - name: Save
         run: |

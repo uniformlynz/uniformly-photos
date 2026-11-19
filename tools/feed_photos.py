@@ -1,5 +1,6 @@
 """Weekly photos from the suppliers' own feeds (20 Nov 2026, his call): Thread Project (their stock file has a photo link
-for every colour) and Cloke (their API has one per colour, once their login works again).
+for every colour), Fashion Biz (their API has front, back and model) and Cloke (their API has one per colour, once their
+login works again).
 Only NEW colours are added, as a front photo, to the styles in the library (and any new Thread Project style). Photos
 already there (the full front, back and model sets from their photo packs) are never touched or re-downloaded.
 A colour the feed no longer has is listed in tools/feed_photos_report.json, not deleted, so nothing good goes by mistake.
@@ -88,6 +89,63 @@ def cloke_colours():
         page += 1; time.sleep(1)   # gently
     print('Cloke: %d styles in their API' % len(out)); return out
 
+FB_BRANDS = {'biz-collection': 'Biz Collection', 'biz-corporates': 'Biz Corporates', 'syzmik': 'Syzmik', 'inaura': 'Inaura', 'good-mates': 'Goodmates'}
+def fb_colours():
+    """{brand: {code: {colour: {front, back, model}}}} off Fashion Biz's API (their product list has each colour's photos)"""
+    tok = os.environ.get('FB_TOKEN', '').strip()
+    if not tok: print('Fashion Biz: no FASHIONBIZ_API_TOKEN secret, skipped'); return None
+    out = {}
+    for slug_, bname in FB_BRANDS.items():
+        page = 1
+        while page < 60:
+            try:
+                rq = urllib.request.Request('https://www.fashionbizapis.com/api/v3/products/%s/nz/?per_page=100&page=%d' % (slug_, page), headers={'Authorization': 'Token ' + tok, 'Content-Type': 'application/json', 'User-Agent': 'stock-sync'})
+                with urllib.request.urlopen(rq, timeout=90) as r: L = json.loads(r.read().decode())
+            except Exception as e: print('Fashion Biz %s page %d: %s' % (slug_, page, type(e).__name__)); break
+            for Pd in L.get('products') or []:
+                code = str(Pd.get('code') or '').strip()
+                if not code or str(Pd.get('slug') or '').endswith('-clearance'): continue
+                for C in Pd.get('colors') or []:
+                    col = str(C.get('name') or '').strip(); ims = C.get('images') or []
+                    if not col or not ims: continue
+                    url = lambda im: im.get('https_attachment_url_product') or im.get('https_attachment_url') or ''
+                    typ = lambda im: str(im.get('image_type') or '').lower()
+                    prod = [im for im in ims if 'talent' not in typ(im) and 'model' not in typ(im)]
+                    talent = [im for im in ims if 'talent' in typ(im) or 'model' in typ(im)]
+                    fr = next((im for im in prod if im.get('front')), prod[0] if prod else None)
+                    bk = next((im for im in prod if im is not fr and not im.get('front')), None)
+                    out.setdefault(bname, {}).setdefault(code, {})[col] = {'front': url(fr) if fr else '', 'back': url(bk) if bk else '', 'model': url(talent[0]) if talent else ''}
+            if not L.get('next'): break
+            page += 1; time.sleep(1)
+    print('Fashion Biz: %d styles in their API' % sum(len(v) for v in out.values())); return out
+
+def add_fb(P, feed):
+    """new colours on the Fashion Biz styles in the library: front, back and model, like the rest of their photos"""
+    added, gone = [], []
+    for brand, styles in feed.items():
+        have = P['brands'].setdefault(brand, {})
+        for code, cols in sorted(styles.items()):
+            cu = code.upper()
+            if cu not in have: continue
+            cur = have[cu]; hn = {norm(c) for c in cur}; fn = {norm(c) for c in cols}
+            spare = [h for h in hn if h not in fn]
+            for col, u in sorted(cols.items()):
+                if norm(col) in hn or not u.get('front'): continue
+                if any(h.startswith(norm(col)) or norm(col).startswith(h) for h in spare): continue
+                paths = []
+                for role in ('front', 'back', 'model'):
+                    if not u.get(role): continue
+                    b = fetch(u[role])
+                    if not b: continue
+                    try: im = rgb(Image.open(io.BytesIO(b)))
+                    except Exception: continue
+                    im.thumbnail((733, 1100) if role == 'model' else (900, 900), Image.LANCZOS)
+                    rel = 'fashion-biz/%s/%s-%s.webp' % (code.lower(), slug(col), role); os.makedirs(os.path.dirname(os.path.join(ROOT, rel)), exist_ok=True)
+                    im.save(os.path.join(ROOT, rel), 'WEBP', quality=82, method=6); paths.append(rel); time.sleep(0.3)
+                if paths: cur[col] = paths; added.append([brand, code, col])
+            gone += [[brand, code, c] for c in cur if norm(c) not in fn]
+    return added, gone
+
 def add(P, brand, folder, feed, new_styles):
     have = P['brands'].setdefault(brand, {}); added, gone = [], []
     for code, cols in sorted(feed.items()):
@@ -121,6 +179,11 @@ if __name__ == '__main__':
         a, g = add(P, brand, folder, feed, new_styles)
         rep[brand] = {'added': a, 'no_longer_in_their_feed': g}
         print('%s: %d new colours added, %d in the library they no longer list' % (brand, len(a), len(g)))
+    try: fbf = fb_colours()
+    except Exception as e: print('Fashion Biz: failed (%s)' % type(e).__name__); fbf = None
+    if fbf:
+        a, g = add_fb(P, fbf); rep['Fashion Biz'] = {'added': a, 'no_longer_in_their_feed': g}
+        print('Fashion Biz: %d new colours added, %d in the library they no longer list' % (len(a), len(g)))
     if any(v['added'] for v in rep.values()):
         P['v'] = time.strftime('%Y%m%d%H%M'); json.dump(P, open(os.path.join(ROOT, 'photos.json'), 'w'), separators=(',', ':'))
     json.dump(rep, open(os.path.join(HERE, 'feed_photos_report.json'), 'w'), indent=0)
