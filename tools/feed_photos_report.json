@@ -1,55 +1,6 @@
 {
 "Thread Project": {
-"added": [
-[
-"5001",
-"Black"
-],
-[
-"5001",
-"Natural"
-],
-[
-"5003",
-"Black"
-],
-[
-"5003",
-"Natural"
-],
-[
-"5003",
-"Natural/Black"
-],
-[
-"5004",
-"Black"
-],
-[
-"5004",
-"Natural"
-],
-[
-"5004",
-"White"
-],
-[
-"5008",
-"Black"
-],
-[
-"5008",
-"Natural"
-],
-[
-"5009",
-"Natural"
-],
-[
-"5014",
-"White"
-]
-],
+"added": [],
 "no_longer_in_their_feed": [
 [
 "5009",
@@ -60,5 +11,120 @@
 "White/Black"
 ]
 ]
+},
+"Fashion Biz": {
+"added": [
+[
+"Biz Collection",
+"BP2610LS",
+"Charcoal Marle"
+],
+[
+"Biz Collection",
+"BP2610MS",
+"Charcoal Marle"
+],
+[
+"Biz Collection",
+"P303LS",
+"Grape/Black"
+],
+[
+"Biz Collection",
+"P303MS",
+"Black/Silver Grey"
+],
+[
+"Biz Collection",
+"P303MS",
+"Grape/Black"
+],
+[
+"Biz Collection",
+"P303MS",
+"Navy/White"
+],
+[
+"Biz Collection",
+"P303MS",
+"Silver Grey/Black"
+],
+[
+"Biz Collection",
+"P410LS",
+"Dark Grey Carbon"
+],
+[
+"Biz Collection",
+"P410MS",
+"Dark Grey Carbon"
+],
+[
+"Biz Collection",
+"T10022",
+"Fluoro Yellow/Lime"
+],
+[
+"Biz Collection",
+"T406MS",
+"Grey/Fluoro Lime"
+],
+[
+"Biz Corporates",
+"RS070ML",
+"Storm Blue/White Check"
+],
+[
+"Biz Corporates",
+"RS070ML",
+"White/Storm Blue Check"
+],
+[
+"Biz Corporates",
+"RS670WL",
+"Storm Blue/White Check"
+],
+[
+"Biz Corporates",
+"RS670WL",
+"White/Storm Blue Check"
+],
+[
+"Syzmik",
+"ZS235",
+"Khaki"
+],
+[
+"Syzmik",
+"ZS735",
+"Khaki"
+],
+[
+"Goodmates",
+"X1001M",
+"Forest"
+],
+[
+"Goodmates",
+"X2008M",
+"Ecru"
+],
+[
+"Goodmates",
+"X2008M",
+"Navy"
+],
+[
+"Goodmates",
+"X2008W",
+"Ecru"
+],
+[
+"Goodmates",
+"X2008W",
+"Navy"
+]
+],
+"no_longer_in_their_feed": []
 }
 }
