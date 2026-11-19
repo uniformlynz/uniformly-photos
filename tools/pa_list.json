@@ -98,18 +98,6 @@
 {
 "brand": "American Apparel",
 "code": "102",
-"colour": "Blush",
-"slug": "blush",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/102_102BH_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/102_102BH_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/102_102BH_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/102_102BH_D1.jpg"
-]
-},
-{
-"brand": "American Apparel",
-"code": "102",
 "colour": "Black",
 "slug": "black",
 "urls": [
@@ -117,6 +105,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/102_102BL_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/102_102BL_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/102_102BL_D1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "102",
+"colour": "Blush",
+"slug": "blush",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/102_102BH_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/102_102BH_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/102_102BH_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/102_102BH_D1.jpg"
 ]
 },
 {
@@ -242,6 +242,18 @@
 {
 "brand": "American Apparel",
 "code": "1301",
+"colour": "Athletic Htr.G",
+"slug": "athletic-htr-g",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/1301_1301HG_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1301_1301HG_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1301_1301HG_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1301_1301HG_D1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "1301",
 "colour": "Black",
 "slug": "black",
 "urls": [
@@ -261,6 +273,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/1301_1301BU_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/1301_1301BU_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/1301_1301BU_D1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "1301",
+"colour": "Cardinal Red",
+"slug": "cardinal-red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/1301_1301CRE_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1301_1301CRE_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1301_1301CRE_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1301_1301CRE_D1.jpg"
 ]
 },
 {
@@ -290,13 +314,11 @@
 {
 "brand": "American Apparel",
 "code": "1301",
-"colour": "Cardinal Red",
-"slug": "cardinal-red",
+"colour": "Charcoal Heather",
+"slug": "charcoal-heather",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/1301_1301CRE_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1301_1301CRE_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1301_1301CRE_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1301_1301CRE_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/1301_1301CH_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1301_1301CH_B1.jpg"
 ]
 },
 {
@@ -326,28 +348,6 @@
 {
 "brand": "American Apparel",
 "code": "1301",
-"colour": "Charcoal Heather",
-"slug": "charcoal-heather",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/1301_1301CH_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1301_1301CH_B1.jpg"
-]
-},
-{
-"brand": "American Apparel",
-"code": "1301",
-"colour": "Athletic Htr.G",
-"slug": "athletic-htr-g",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/1301_1301HG_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1301_1301HG_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1301_1301HG_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1301_1301HG_D1.jpg"
-]
-},
-{
-"brand": "American Apparel",
-"code": "1301",
 "colour": "Military Green",
 "slug": "military-green",
 "urls": [
@@ -372,18 +372,6 @@
 {
 "brand": "American Apparel",
 "code": "1301",
-"colour": "Powder Blue",
-"slug": "powder-blue",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/1301_1301PB_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1301_1301PB_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1301_1301PB_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1301_1301PB_D1.jpg"
-]
-},
-{
-"brand": "American Apparel",
-"code": "1301",
 "colour": "Pink",
 "slug": "pink",
 "urls": [
@@ -391,6 +379,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/1301_1301PI_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/1301_1301PI_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/1301_1301PI_D1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "1301",
+"colour": "Powder Blue",
+"slug": "powder-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/1301_1301PB_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1301_1301PB_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1301_1301PB_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1301_1301PB_D1.jpg"
 ]
 },
 {
@@ -802,6 +802,18 @@
 {
 "brand": "Comfort Colours",
 "code": "1717",
+"colour": "Bay",
+"slug": "bay",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BY_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BY_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BY_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BY_D1.jpg"
+]
+},
+{
+"brand": "Comfort Colours",
+"code": "1717",
 "colour": "Berry",
 "slug": "berry",
 "urls": [
@@ -809,18 +821,6 @@
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717BE_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717BE_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717BE_D1.jpg"
-]
-},
-{
-"brand": "Comfort Colours",
-"code": "1717",
-"colour": "Blue Jean",
-"slug": "blue-jean",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BJ_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BJ_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BJ_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BJ_D1.jpg"
 ]
 },
 {
@@ -850,49 +850,13 @@
 {
 "brand": "Comfort Colours",
 "code": "1717",
-"colour": "Bright Orange",
-"slug": "bright-orange",
+"colour": "Blue Jean",
+"slug": "blue-jean",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BOR_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BOR_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BOR_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BOR_D1.jpg"
-]
-},
-{
-"brand": "Comfort Colours",
-"code": "1717",
-"colour": "Burnt Orange",
-"slug": "burnt-orange",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BORA_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BORA_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BORA_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BORA_D1.jpg"
-]
-},
-{
-"brand": "Comfort Colours",
-"code": "1717",
-"colour": "Brick",
-"slug": "brick",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BR_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BR_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BR_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BR_D1.jpg"
-]
-},
-{
-"brand": "Comfort Colours",
-"code": "1717",
-"colour": "Bright Salmon",
-"slug": "bright-salmon",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BSA_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BSA_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BSA_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BSA_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BJ_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BJ_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BJ_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BJ_D1.jpg"
 ]
 },
 {
@@ -910,6 +874,54 @@
 {
 "brand": "Comfort Colours",
 "code": "1717",
+"colour": "Brick",
+"slug": "brick",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BR_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BR_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BR_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BR_D1.jpg"
+]
+},
+{
+"brand": "Comfort Colours",
+"code": "1717",
+"colour": "Bright Orange",
+"slug": "bright-orange",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BOR_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BOR_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BOR_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BOR_D1.jpg"
+]
+},
+{
+"brand": "Comfort Colours",
+"code": "1717",
+"colour": "Bright Salmon",
+"slug": "bright-salmon",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BSA_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BSA_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BSA_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BSA_D1.jpg"
+]
+},
+{
+"brand": "Comfort Colours",
+"code": "1717",
+"colour": "Burnt Orange",
+"slug": "burnt-orange",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BORA_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BORA_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BORA_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717BORA_D1.jpg"
+]
+},
+{
+"brand": "Comfort Colours",
+"code": "1717",
 "colour": "Butter",
 "slug": "butter",
 "urls": [
@@ -917,18 +929,6 @@
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717BT_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717BT_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717BT_D1.jpg"
-]
-},
-{
-"brand": "Comfort Colours",
-"code": "1717",
-"colour": "Bay",
-"slug": "bay",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BY_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BY_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BY_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717BY_D1.jpg"
 ]
 },
 {
@@ -946,6 +946,18 @@
 {
 "brand": "Comfort Colours",
 "code": "1717",
+"colour": "Chambray",
+"slug": "chambray",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717CY_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717CY_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717CY_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717CY_D1.jpg"
+]
+},
+{
+"brand": "Comfort Colours",
+"code": "1717",
 "colour": "Chili",
 "slug": "chili",
 "urls": [
@@ -953,16 +965,6 @@
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717CI_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717CI_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717CI_D1.jpg"
-]
-},
-{
-"brand": "Comfort Colours",
-"code": "1717",
-"colour": "Crimson",
-"slug": "crimson",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717CS_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717CS_D1.jpg"
 ]
 },
 {
@@ -980,13 +982,11 @@
 {
 "brand": "Comfort Colours",
 "code": "1717",
-"colour": "Chambray",
-"slug": "chambray",
+"colour": "Crimson",
+"slug": "crimson",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717CY_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717CY_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717CY_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717CY_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717CS_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717CS_D1.jpg"
 ]
 },
 {
@@ -1051,18 +1051,6 @@
 {
 "brand": "Comfort Colours",
 "code": "1717",
-"colour": "Grape",
-"slug": "grape",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717GP_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717GP_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717GP_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717GP_D1.jpg"
-]
-},
-{
-"brand": "Comfort Colours",
-"code": "1717",
 "colour": "Granite",
 "slug": "granite",
 "urls": [
@@ -1070,6 +1058,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717GRA_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717GRA_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717GRA_D1.jpg"
+]
+},
+{
+"brand": "Comfort Colours",
+"code": "1717",
+"colour": "Grape",
+"slug": "grape",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717GP_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717GP_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717GP_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717GP_D1.jpg"
 ]
 },
 {
@@ -1207,13 +1207,13 @@
 {
 "brand": "Comfort Colours",
 "code": "1717",
-"colour": "Mystic Blue",
-"slug": "mystic-blue",
+"colour": "Melon",
+"slug": "melon",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717MBLU_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717MBLU_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717MBLU_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717MBLU_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717ME_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717ME_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717ME_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717ME_D1.jpg"
 ]
 },
 {
@@ -1226,18 +1226,6 @@
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717MD_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717MD_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717MD_D1.jpg"
-]
-},
-{
-"brand": "Comfort Colours",
-"code": "1717",
-"colour": "Melon",
-"slug": "melon",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717ME_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717ME_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717ME_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717ME_D1.jpg"
 ]
 },
 {
@@ -1267,6 +1255,18 @@
 {
 "brand": "Comfort Colours",
 "code": "1717",
+"colour": "Mystic Blue",
+"slug": "mystic-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717MBLU_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717MBLU_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717MBLU_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717MBLU_D1.jpg"
+]
+},
+{
+"brand": "Comfort Colours",
+"code": "1717",
 "colour": "Neon Cantaloupe",
 "slug": "neon-cantaloupe",
 "urls": [
@@ -1291,16 +1291,6 @@
 {
 "brand": "Comfort Colours",
 "code": "1717",
-"colour": "Neon Red Orange",
-"slug": "neon-red-orange",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717NOR_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717NOR_D1.jpg"
-]
-},
-{
-"brand": "Comfort Colours",
-"code": "1717",
 "colour": "Neon Pink",
 "slug": "neon-pink",
 "urls": [
@@ -1308,6 +1298,16 @@
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717NPI_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717NPI_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717NPI_D1.jpg"
+]
+},
+{
+"brand": "Comfort Colours",
+"code": "1717",
+"colour": "Neon Red Orange",
+"slug": "neon-red-orange",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717NOR_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717NOR_D1.jpg"
 ]
 },
 {
@@ -1332,6 +1332,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717OH_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717OH_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717OH_D1.jpg"
+]
+},
+{
+"brand": "Comfort Colours",
+"code": "1717",
+"colour": "Paprika",
+"slug": "paprika",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717PR_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717PR_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717PR_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717PR_D1.jpg"
 ]
 },
 {
@@ -1373,13 +1385,13 @@
 {
 "brand": "Comfort Colours",
 "code": "1717",
-"colour": "Paprika",
-"slug": "paprika",
+"colour": "Rose Quartz",
+"slug": "rose-quartz",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717PR_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717PR_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717PR_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717PR_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717RQ_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717RQ_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717RQ_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717RQ_D1.jpg"
 ]
 },
 {
@@ -1397,18 +1409,6 @@
 {
 "brand": "Comfort Colours",
 "code": "1717",
-"colour": "Rose Quartz",
-"slug": "rose-quartz",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717RQ_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717RQ_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717RQ_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717RQ_D1.jpg"
-]
-},
-{
-"brand": "Comfort Colours",
-"code": "1717",
 "colour": "Sage",
 "slug": "sage",
 "urls": [
@@ -1421,13 +1421,13 @@
 {
 "brand": "Comfort Colours",
 "code": "1717",
-"colour": "Seafoam",
-"slug": "seafoam",
+"colour": "Sandstone",
+"slug": "sandstone",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717SF_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717SF_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717SF_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717SF_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717SS_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717SS_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717SS_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717SS_D1.jpg"
 ]
 },
 {
@@ -1445,13 +1445,13 @@
 {
 "brand": "Comfort Colours",
 "code": "1717",
-"colour": "Sandstone",
-"slug": "sandstone",
+"colour": "Seafoam",
+"slug": "seafoam",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717SS_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717SS_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717SS_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717SS_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717SF_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717SF_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717SF_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717SF_D1.jpg"
 ]
 },
 {
@@ -1493,18 +1493,6 @@
 {
 "brand": "Comfort Colours",
 "code": "1717",
-"colour": "White",
-"slug": "white",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717W_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717W_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717W_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717W_D1.jpg"
-]
-},
-{
-"brand": "Comfort Colours",
-"code": "1717",
 "colour": "Washed Denim",
 "slug": "washed-denim",
 "urls": [
@@ -1517,18 +1505,6 @@
 {
 "brand": "Comfort Colours",
 "code": "1717",
-"colour": "Wine",
-"slug": "wine",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717WI_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717WI_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717WI_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1717_1717WI_D1.jpg"
-]
-},
-{
-"brand": "Comfort Colours",
-"code": "1717",
 "colour": "Watermelon",
 "slug": "watermelon",
 "urls": [
@@ -1536,6 +1512,30 @@
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717WM_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717WM_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/1717_1717WM_D1.jpg"
+]
+},
+{
+"brand": "Comfort Colours",
+"code": "1717",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717W_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717W_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717W_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717W_D1.jpg"
+]
+},
+{
+"brand": "Comfort Colours",
+"code": "1717",
+"colour": "Wine",
+"slug": "wine",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717WI_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717WI_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717WI_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1717_1717WI_D1.jpg"
 ]
 },
 {
@@ -1565,18 +1565,6 @@
 {
 "brand": "Comfort Colours",
 "code": "1745",
-"colour": "Clay",
-"slug": "clay",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/1745_1745CL_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1745_1745CL_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1745_1745CL_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/1745_1745CL_D1.jpg"
-]
-},
-{
-"brand": "Comfort Colours",
-"code": "1745",
 "colour": "Citrine",
 "slug": "citrine",
 "urls": [
@@ -1584,6 +1572,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/1745_1745CN_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/1745_1745CN_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/1745_1745CN_D1.jpg"
+]
+},
+{
+"brand": "Comfort Colours",
+"code": "1745",
+"colour": "Clay",
+"slug": "clay",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/1745_1745CL_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1745_1745CL_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1745_1745CL_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/1745_1745CL_D1.jpg"
 ]
 },
 {
@@ -1648,6 +1648,18 @@
 {
 "brand": "Gildan",
 "code": "18000",
+"colour": "Dark Chocolate",
+"slug": "dark-chocolate",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000DC_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000DC_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000DC_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000DC_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "18000",
 "colour": "Dark Heather",
 "slug": "dark-heather",
 "urls": [
@@ -1672,6 +1684,66 @@
 {
 "brand": "Gildan",
 "code": "18000",
+"colour": "Heather Sport Dark Green",
+"slug": "heather-sport-dark-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDG_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDG_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDG_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDG_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "18000",
+"colour": "Heather Sport Dark Maroon",
+"slug": "heather-sport-dark-maroon",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDM_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDM_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDM_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDM_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "18000",
+"colour": "Heather Sport Dark Navy",
+"slug": "heather-sport-dark-navy",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDN_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDN_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDN_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDN_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "18000",
+"colour": "Heather Sport Royal",
+"slug": "heather-sport-royal",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSRO_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSRO_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSRO_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSRO_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "18000",
+"colour": "Heather Sport Scarlett Red",
+"slug": "heather-sport-scarlett-red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSSR_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSSR_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSSR_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSSR_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "18000",
 "colour": "Maroon",
 "slug": "maroon",
 "urls": [
@@ -1679,6 +1751,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/18000_18000MA_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/18000_18000MA_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/18000_18000MA_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "18000",
+"colour": "Military Green",
+"slug": "military-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000MG_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000MG_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000MG_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18000_18000MG_D1.jpg"
 ]
 },
 {
@@ -1749,90 +1833,6 @@
 "https://ik.imagekit.io/premiumapparel/live2/18000_18000SG_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/18000_18000SG_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/18000_18000SG_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "18000",
-"colour": "Dark Chocolate",
-"slug": "dark-chocolate",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000DC_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000DC_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000DC_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000DC_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "18000",
-"colour": "Heather Sport Dark Green",
-"slug": "heather-sport-dark-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDG_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDG_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDG_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDG_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "18000",
-"colour": "Heather Sport Dark Maroon",
-"slug": "heather-sport-dark-maroon",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDM_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDM_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDM_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDM_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "18000",
-"colour": "Heather Sport Dark Navy",
-"slug": "heather-sport-dark-navy",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDN_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDN_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDN_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSDN_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "18000",
-"colour": "Heather Sport Royal",
-"slug": "heather-sport-royal",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSRO_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSRO_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSRO_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSRO_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "18000",
-"colour": "Heather Sport Scarlett Red",
-"slug": "heather-sport-scarlett-red",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSSR_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSSR_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSSR_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000HSSR_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "18000",
-"colour": "Military Green",
-"slug": "military-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000MG_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000MG_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000MG_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18000_18000MG_D1.jpg"
 ]
 },
 {
@@ -1947,6 +1947,51 @@
 },
 {
 "brand": "Gildan",
+"code": "18400A",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/18400A_18400BL_A1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "18400A",
+"colour": "Forest Green",
+"slug": "forest-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/18400A_18400FG_A1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "18400A",
+"colour": "Maroon",
+"slug": "maroon",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/18400A_18400MA_A1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "18400A",
+"colour": "Navy",
+"slug": "navy",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/18400A_18400MA_A1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "18400A",
+"colour": "Sport Grey",
+"slug": "sport-grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/18400A_18400SG_A1.jpg"
+]
+},
+{
+"brand": "Gildan",
 "code": "18500",
 "colour": "Black",
 "slug": "black",
@@ -1965,6 +2010,18 @@
 "urls": [
 "https://ik.imagekit.io/premiumapparel/live2/18500_18500CH_A1.png",
 "https://ik.imagekit.io/premiumapparel/live2/18500_18500CH_B1.png"
+]
+},
+{
+"brand": "Gildan",
+"code": "18500",
+"colour": "Cherry Red",
+"slug": "cherry-red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500CRE_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500CRE_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500CRE_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500CRE_D1.jpg"
 ]
 },
 {
@@ -2006,13 +2063,35 @@
 {
 "brand": "Gildan",
 "code": "18500",
-"colour": "Irish Green",
-"slug": "irish-green",
+"colour": "Heather Sport Dark Maroon",
+"slug": "heather-sport-dark-maroon",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500GI_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500GI_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500GI_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500GI_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500HSDM_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500HSDM_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500HSDM_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500HSDM_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "18500",
+"colour": "Heather Sport Royal",
+"slug": "heather-sport-royal",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500HSRO_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500HSRO_B1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "18500",
+"colour": "Heather Sport Scarlett Red",
+"slug": "heather-sport-scarlett-red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500HSSR_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500HSSR_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500HSSR_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500HSSR_D1.jpg"
 ]
 },
 {
@@ -2054,6 +2133,30 @@
 {
 "brand": "Gildan",
 "code": "18500",
+"colour": "Indigo Blue",
+"slug": "indigo-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500IB_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500IB_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500IB_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500IB_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "18500",
+"colour": "Irish Green",
+"slug": "irish-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500GI_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500GI_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500GI_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500GI_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "18500",
 "colour": "Light Blue",
 "slug": "light-blue",
 "urls": [
@@ -2061,6 +2164,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/18500_18500LB_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/18500_18500LB_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/18500_18500LB_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "18500",
+"colour": "Light Pink",
+"slug": "light-pink",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500LP_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500LP_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500LP_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500LP_D1.jpg"
 ]
 },
 {
@@ -2126,6 +2241,18 @@
 {
 "brand": "Gildan",
 "code": "18500",
+"colour": "Sapphire",
+"slug": "sapphire",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500SP_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500SP_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500SP_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500_18500SP_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "18500",
 "colour": "Sport Grey",
 "slug": "sport-grey",
 "urls": [
@@ -2149,88 +2276,6 @@
 },
 {
 "brand": "Gildan",
-"code": "18500",
-"colour": "Cherry Red",
-"slug": "cherry-red",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500CRE_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500CRE_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500CRE_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500CRE_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "18500",
-"colour": "Heather Sport Dark Maroon",
-"slug": "heather-sport-dark-maroon",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500HSDM_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500HSDM_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500HSDM_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500HSDM_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "18500",
-"colour": "Heather Sport Royal",
-"slug": "heather-sport-royal",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500HSRO_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500HSRO_B1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "18500",
-"colour": "Heather Sport Scarlett Red",
-"slug": "heather-sport-scarlett-red",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500HSSR_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500HSSR_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500HSSR_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500HSSR_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "18500",
-"colour": "Indigo Blue",
-"slug": "indigo-blue",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500IB_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500IB_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500IB_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500IB_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "18500",
-"colour": "Light Pink",
-"slug": "light-pink",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500LP_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500LP_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500LP_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500LP_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "18500",
-"colour": "Sapphire",
-"slug": "sapphire",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500SP_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500SP_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500SP_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500_18500SP_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
 "code": "18500B",
 "colour": "Black",
 "slug": "black",
@@ -2239,6 +2284,36 @@
 "https://ik.imagekit.io/premiumapparel/live2/18500B_18500BBL_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/18500B_18500BBL_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/18500B_18500BBL_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "18500B",
+"colour": "Forest Green",
+"slug": "forest-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/18500B_18500BFG_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500B_18500BFG_B1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "18500B",
+"colour": "Heliconia",
+"slug": "heliconia",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/18500B_18500BH_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/18500B_18500BH_B1.png"
+]
+},
+{
+"brand": "Gildan",
+"code": "18500B",
+"colour": "Irish Green",
+"slug": "irish-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/18500B_18500BGI_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/18500B_18500BGI_B1.jpg"
 ]
 },
 {
@@ -2311,36 +2386,6 @@
 "https://ik.imagekit.io/premiumapparel/live2/18500B_18500BW_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/18500B_18500BW_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/18500B_18500BW_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "18500B",
-"colour": "Forest Green",
-"slug": "forest-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/18500B_18500BFG_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500B_18500BFG_B1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "18500B",
-"colour": "Irish Green",
-"slug": "irish-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/18500B_18500BGI_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/18500B_18500BGI_B1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "18500B",
-"colour": "Heliconia",
-"slug": "heliconia",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/18500B_18500BH_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/18500B_18500BH_B1.png"
 ]
 },
 {
@@ -2487,14 +2532,21 @@
 },
 {
 "brand": "Gildan",
-"code": "19000",
-"colour": "Blue Dusk",
-"slug": "blue-dusk",
+"code": "18900",
+"colour": "Black",
+"slug": "black",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/19000_19000BD_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/19000_19000BD_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/19000_19000BD_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/19000_19000BD_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/18900_18900BL_A1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "18900",
+"colour": "Sport Grey",
+"slug": "sport-grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/18900_18900SG_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/18900_18900SG_B1.png"
 ]
 },
 {
@@ -2507,6 +2559,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/19000_19000BL_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/19000_19000BL_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/19000_19000BL_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "19000",
+"colour": "Blue Dusk",
+"slug": "blue-dusk",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/19000_19000BD_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/19000_19000BD_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/19000_19000BD_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/19000_19000BD_D1.jpg"
 ]
 },
 {
@@ -2560,18 +2624,6 @@
 {
 "brand": "Gildan",
 "code": "19000",
-"colour": "Olive",
-"slug": "olive",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/19000_19000OL_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/19000_19000OL_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/19000_19000OL_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/19000_19000OL_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "19000",
 "colour": "Off White",
 "slug": "off-white",
 "urls": [
@@ -2579,6 +2631,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/19000_19000OW_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/19000_19000OW_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/19000_19000OW_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "19000",
+"colour": "Olive",
+"slug": "olive",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/19000_19000OL_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/19000_19000OL_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/19000_19000OL_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/19000_19000OL_D1.jpg"
 ]
 },
 {
@@ -2596,18 +2660,6 @@
 {
 "brand": "Gildan",
 "code": "19500",
-"colour": "Blue Dusk",
-"slug": "blue-dusk",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/19500_19500BD_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/19500_19500BD_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/19500_19500BD_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/19500_19500BD_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "19500",
 "colour": "Black",
 "slug": "black",
 "urls": [
@@ -2615,6 +2667,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/19500_19500BL_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/19500_19500BL_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/19500_19500BL_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "19500",
+"colour": "Blue Dusk",
+"slug": "blue-dusk",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/19500_19500BD_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/19500_19500BD_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/19500_19500BD_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/19500_19500BD_D1.jpg"
 ]
 },
 {
@@ -2668,18 +2732,6 @@
 {
 "brand": "Gildan",
 "code": "19500",
-"colour": "Olive",
-"slug": "olive",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/19500_19500OL_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/19500_19500OL_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/19500_19500OL_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/19500_19500OL_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "19500",
 "colour": "Off White",
 "slug": "off-white",
 "urls": [
@@ -2687,6 +2739,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/19500_19500OW_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/19500_19500OW_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/19500_19500OW_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "19500",
+"colour": "Olive",
+"slug": "olive",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/19500_19500OL_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/19500_19500OL_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/19500_19500OL_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/19500_19500OL_D1.jpg"
 ]
 },
 {
@@ -2776,18 +2840,6 @@
 {
 "brand": "Gildan",
 "code": "2000",
-"colour": "Blue Dusk",
-"slug": "blue-dusk",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/2000_2000BD_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2000_2000BD_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2000_2000BD_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2000_2000BD_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "2000",
 "colour": "Black",
 "slug": "black",
 "urls": [
@@ -2795,6 +2847,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/2000_2000BL_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2000_2000BL_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2000_2000BL_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "2000",
+"colour": "Blue Dusk",
+"slug": "blue-dusk",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/2000_2000BD_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2000_2000BD_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2000_2000BD_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2000_2000BD_D1.jpg"
 ]
 },
 {
@@ -2968,18 +3032,6 @@
 {
 "brand": "Gildan",
 "code": "2000",
-"colour": "Stone Blue",
-"slug": "stone-blue",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/2000_2000SB_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2000_2000SB_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2000_2000SB_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2000_2000SB_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "2000",
 "colour": "Sport Grey",
 "slug": "sport-grey",
 "urls": [
@@ -2987,6 +3039,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/2000_2000SG_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2000_2000SG_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2000_2000SG_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "2000",
+"colour": "Stone Blue",
+"slug": "stone-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/2000_2000SB_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2000_2000SB_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2000_2000SB_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2000_2000SB_D1.jpg"
 ]
 },
 {
@@ -3050,18 +3114,6 @@
 {
 "brand": "American Apparel",
 "code": "2001",
-"colour": "Blush",
-"slug": "blush",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/2001_2001BH_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001_2001BH_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001_2001BH_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001_2001BH_D1.jpg"
-]
-},
-{
-"brand": "American Apparel",
-"code": "2001",
 "colour": "Black",
 "slug": "black",
 "urls": [
@@ -3069,6 +3121,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/2001_2001BL_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2001_2001BL_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2001_2001BL_D1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "2001",
+"colour": "Blush",
+"slug": "blush",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/2001_2001BH_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001_2001BH_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001_2001BH_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001_2001BH_D1.jpg"
 ]
 },
 {
@@ -3134,18 +3198,6 @@
 {
 "brand": "American Apparel",
 "code": "2001",
-"colour": "Cream",
-"slug": "cream",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/2001_2001CM_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001_2001CM_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001_2001CM_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001_2001CM_D1.jpg"
-]
-},
-{
-"brand": "American Apparel",
-"code": "2001",
 "colour": "Coral",
 "slug": "coral",
 "urls": [
@@ -3165,6 +3217,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/2001_2001CRA_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2001_2001CRA_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2001_2001CRA_D1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "2001",
+"colour": "Cream",
+"slug": "cream",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/2001_2001CM_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001_2001CM_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001_2001CM_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001_2001CM_D1.jpg"
 ]
 },
 {
@@ -3242,6 +3306,18 @@
 {
 "brand": "American Apparel",
 "code": "2001",
+"colour": "Navy",
+"slug": "navy",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/2001_2001NY_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001_2001NY_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001_2001NY_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001_2001NY_D1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "2001",
 "colour": "Nephrite",
 "slug": "nephrite",
 "urls": [
@@ -3261,18 +3337,6 @@
 "https://ik.imagekit.io/premiumapparel/live2/2001_2001NS_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2001_2001NS_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2001_2001NS_D1.jpg"
-]
-},
-{
-"brand": "American Apparel",
-"code": "2001",
-"colour": "Navy",
-"slug": "navy",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/2001_2001NY_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001_2001NY_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001_2001NY_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001_2001NY_D1.jpg"
 ]
 },
 {
@@ -3302,18 +3366,6 @@
 {
 "brand": "American Apparel",
 "code": "2001",
-"colour": "Powder Blue",
-"slug": "powder-blue",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/2001_2001PBL_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001_2001PBL_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001_2001PBL_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001_2001PBL_D1.jpg"
-]
-},
-{
-"brand": "American Apparel",
-"code": "2001",
 "colour": "Panna Cotta",
 "slug": "panna-cotta",
 "urls": [
@@ -3321,6 +3373,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/2001_2001PCO_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2001_2001PCO_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2001_2001PCO_D1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "2001",
+"colour": "Powder Blue",
+"slug": "powder-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/2001_2001PBL_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001_2001PBL_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001_2001PBL_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001_2001PBL_D1.jpg"
 ]
 },
 {
@@ -3386,18 +3450,6 @@
 {
 "brand": "American Apparel",
 "code": "2001",
-"colour": "Super Pink",
-"slug": "super-pink",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/2001_2001SPI_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001_2001SPI_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001_2001SPI_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001_2001SPI_D1.jpg"
-]
-},
-{
-"brand": "American Apparel",
-"code": "2001",
 "colour": "Sea Spray",
 "slug": "sea-spray",
 "urls": [
@@ -3417,6 +3469,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/2001_2001SV_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2001_2001SV_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2001_2001SV_D1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "2001",
+"colour": "Super Pink",
+"slug": "super-pink",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/2001_2001SPI_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001_2001SPI_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001_2001SPI_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001_2001SPI_D1.jpg"
 ]
 },
 {
@@ -3458,18 +3522,6 @@
 {
 "brand": "American Apparel",
 "code": "2001CVC",
-"colour": "Heather Army",
-"slug": "heather-army",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHAM_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHAM_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHAM_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHAM_D1.jpg"
-]
-},
-{
-"brand": "American Apparel",
-"code": "2001CVC",
 "colour": "Heather Arctic",
 "slug": "heather-arctic",
 "urls": [
@@ -3482,6 +3534,18 @@
 {
 "brand": "American Apparel",
 "code": "2001CVC",
+"colour": "Heather Army",
+"slug": "heather-army",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHAM_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHAM_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHAM_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHAM_D1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "2001CVC",
 "colour": "Heather Asphalt",
 "slug": "heather-asphalt",
 "urls": [
@@ -3489,18 +3553,6 @@
 "https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHAS_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHAS_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHAS_D1.jpg"
-]
-},
-{
-"brand": "American Apparel",
-"code": "2001CVC",
-"colour": "Heather Royal Blue",
-"slug": "heather-royal-blue",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHBLU_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHBLU_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHBLU_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHBLU_D1.jpg"
 ]
 },
 {
@@ -3542,6 +3594,18 @@
 {
 "brand": "American Apparel",
 "code": "2001CVC",
+"colour": "Heather Cardinal",
+"slug": "heather-cardinal",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHCR_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHCR_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHCR_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHCR_D1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "2001CVC",
 "colour": "Heather Celadon",
 "slug": "heather-celadon",
 "urls": [
@@ -3571,30 +3635,6 @@
 "https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHCO_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHCO_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHCO_D1.jpg"
-]
-},
-{
-"brand": "American Apparel",
-"code": "2001CVC",
-"colour": "Heather Panna Cotta",
-"slug": "heather-panna-cotta",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHCOT_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHCOT_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHCOT_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHCOT_D1.jpg"
-]
-},
-{
-"brand": "American Apparel",
-"code": "2001CVC",
-"colour": "Heather Cardinal",
-"slug": "heather-cardinal",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHCR_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHCR_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHCR_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHCR_D1.jpg"
 ]
 },
 {
@@ -3648,18 +3688,6 @@
 {
 "brand": "American Apparel",
 "code": "2001CVC",
-"colour": "Heather Grey",
-"slug": "heather-grey",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHG_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHG_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHG_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHG_D1.jpg"
-]
-},
-{
-"brand": "American Apparel",
-"code": "2001CVC",
 "colour": "Heather Grape",
 "slug": "heather-grape",
 "urls": [
@@ -3667,6 +3695,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHGRA_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHGRA_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHGRA_D1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "2001CVC",
+"colour": "Heather Grey",
+"slug": "heather-grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHG_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHG_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHG_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHG_D1.jpg"
 ]
 },
 {
@@ -3786,6 +3826,18 @@
 {
 "brand": "American Apparel",
 "code": "2001CVC",
+"colour": "Heather Panna Cotta",
+"slug": "heather-panna-cotta",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHCOT_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHCOT_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHCOT_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHCOT_D1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "2001CVC",
 "colour": "Heather Pink",
 "slug": "heather-pink",
 "urls": [
@@ -3805,6 +3857,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHPR_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHPR_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHPR_D1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "2001CVC",
+"colour": "Heather Royal Blue",
+"slug": "heather-royal-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHBLU_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHBLU_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHBLU_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001CVC_2001CVCHBLU_D1.jpg"
 ]
 },
 {
@@ -3928,18 +3992,6 @@
 {
 "brand": "American Apparel",
 "code": "2001Y",
-"colour": "Cream",
-"slug": "cream",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/2001Y_2001YCM_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001Y_2001YCM_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001Y_2001YCM_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001Y_2001YCM_D1.jpg"
-]
-},
-{
-"brand": "American Apparel",
-"code": "2001Y",
 "colour": "Cranberry",
 "slug": "cranberry",
 "urls": [
@@ -3947,6 +3999,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/2001Y_2001YCRB_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2001Y_2001YCRB_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2001Y_2001YCRB_D1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "2001Y",
+"colour": "Cream",
+"slug": "cream",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/2001Y_2001YCM_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001Y_2001YCM_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001Y_2001YCM_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001Y_2001YCM_D1.jpg"
 ]
 },
 {
@@ -3988,18 +4052,6 @@
 {
 "brand": "American Apparel",
 "code": "2001Y",
-"colour": "New Silver",
-"slug": "new-silver",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/2001Y_2001YNS_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001Y_2001YNS_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001Y_2001YNS_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2001Y_2001YNS_D1.jpg"
-]
-},
-{
-"brand": "American Apparel",
-"code": "2001Y",
 "colour": "Navy",
 "slug": "navy",
 "urls": [
@@ -4007,6 +4059,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/2001Y_2001YNY_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2001Y_2001YNY_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2001Y_2001YNY_D1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "2001Y",
+"colour": "New Silver",
+"slug": "new-silver",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/2001Y_2001YNS_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001Y_2001YNS_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001Y_2001YNS_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2001Y_2001YNS_D1.jpg"
 ]
 },
 {
@@ -4296,16 +4360,6 @@
 {
 "brand": "American Apparel",
 "code": "2007W",
-"colour": "Cream",
-"slug": "cream",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/2007W_2007WCM_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2007W_2007WCM_B1.jpg"
-]
-},
-{
-"brand": "American Apparel",
-"code": "2007W",
 "colour": "Cranberry",
 "slug": "cranberry",
 "urls": [
@@ -4316,11 +4370,11 @@
 {
 "brand": "American Apparel",
 "code": "2007W",
-"colour": "New Silver",
-"slug": "new-silver",
+"colour": "Cream",
+"slug": "cream",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/2007W_2007WNS_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2007W_2007WNS_B1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/2007W_2007WCM_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2007W_2007WCM_B1.jpg"
 ]
 },
 {
@@ -4333,6 +4387,16 @@
 "https://ik.imagekit.io/premiumapparel/live2/2007W_2007WNY_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2007W_2007WNY_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2007W_2007WNY_D1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "2007W",
+"colour": "New Silver",
+"slug": "new-silver",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/2007W_2007WNS_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2007W_2007WNS_B1.jpg"
 ]
 },
 {
@@ -4418,18 +4482,6 @@
 {
 "brand": "Gildan",
 "code": "2400",
-"colour": "Safety Green",
-"slug": "safety-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/2400_2400GS_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2400_2400GS_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2400_2400GS_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2400_2400GS_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "2400",
 "colour": "Navy",
 "slug": "navy",
 "urls": [
@@ -4437,18 +4489,6 @@
 "https://ik.imagekit.io/premiumapparel/live2/2400_2400NY_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2400_2400NY_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2400_2400NY_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "2400",
-"colour": "Safety Orange",
-"slug": "safety-orange",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/2400_2400OS_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2400_2400OS_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2400_2400OS_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/2400_2400OS_D1.jpg"
 ]
 },
 {
@@ -4473,6 +4513,30 @@
 "https://ik.imagekit.io/premiumapparel/live2/2400_2400RO_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2400_2400RO_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/2400_2400RO_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "2400",
+"colour": "Safety Green",
+"slug": "safety-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/2400_2400GS_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2400_2400GS_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2400_2400GS_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2400_2400GS_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "2400",
+"colour": "Safety Orange",
+"slug": "safety-orange",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/2400_2400OS_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2400_2400OS_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2400_2400OS_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/2400_2400OS_D1.jpg"
 ]
 },
 {
@@ -4932,6 +4996,16 @@
 },
 {
 "brand": "Gildan",
+"code": "44S30",
+"colour": "Charcoal",
+"slug": "charcoal",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/44S30_44S30CH_F1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/44S30_44S30CH_R1.jpg"
+]
+},
+{
+"brand": "Gildan",
 "code": "5000",
 "colour": "Antique Irish Green",
 "slug": "antique-irish-green",
@@ -4956,6 +5030,18 @@
 {
 "brand": "Gildan",
 "code": "5000",
+"colour": "Antique Orange",
+"slug": "antique-orange",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000AOR_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000AOR_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000AOR_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000AOR_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "5000",
 "colour": "Antique Sapphire",
 "slug": "antique-sapphire",
 "urls": [
@@ -4963,86 +5049,6 @@
 "https://ik.imagekit.io/premiumapparel/live2/5000_5000ASP_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000_5000ASP_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000_5000ASP_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "5000",
-"colour": "Azalea",
-"slug": "azalea",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000AZ_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000AZ_B1.png"
-]
-},
-{
-"brand": "Gildan",
-"code": "5000",
-"colour": "Blackberry",
-"slug": "blackberry",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000BB_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000BB_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000BB_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000BB_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "5000",
-"colour": "Dark Heather",
-"slug": "dark-heather",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000DH_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000DH_B1.png"
-]
-},
-{
-"brand": "Gildan",
-"code": "5000",
-"colour": "Gold",
-"slug": "gold",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000GO_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000GO_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000GO_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000GO_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "5000",
-"colour": "Light Blue",
-"slug": "light-blue",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000LB_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000LB_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000LB_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000LB_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "5000",
-"colour": "Lime",
-"slug": "lime",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000LI_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000LI_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000LI_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000LI_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "5000",
-"colour": "Maroon",
-"slug": "maroon",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000MA_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000MA_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000MA_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000MA_D1.jpg"
 ]
 },
 {
@@ -5060,13 +5066,11 @@
 {
 "brand": "Gildan",
 "code": "5000",
-"colour": "Antique Orange",
-"slug": "antique-orange",
+"colour": "Azalea",
+"slug": "azalea",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000AOR_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000AOR_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000AOR_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000AOR_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000AZ_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000AZ_B1.png"
 ]
 },
 {
@@ -5079,6 +5083,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/5000_5000BL_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000_5000BL_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000_5000BL_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "5000",
+"colour": "Blackberry",
+"slug": "blackberry",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000BB_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000BB_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000BB_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000BB_D1.jpg"
 ]
 },
 {
@@ -5144,6 +5160,16 @@
 {
 "brand": "Gildan",
 "code": "5000",
+"colour": "Dark Heather",
+"slug": "dark-heather",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000DH_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000DH_B1.png"
+]
+},
+{
+"brand": "Gildan",
+"code": "5000",
 "colour": "Forest Green",
 "slug": "forest-green",
 "urls": [
@@ -5156,6 +5182,18 @@
 {
 "brand": "Gildan",
 "code": "5000",
+"colour": "Gold",
+"slug": "gold",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000GO_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000GO_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000GO_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000GO_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "5000",
 "colour": "Graphite Heather",
 "slug": "graphite-heather",
 "urls": [
@@ -5163,42 +5201,6 @@
 "https://ik.imagekit.io/premiumapparel/live2/5000_5000GH_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000_5000GH_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000_5000GH_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "5000",
-"colour": "Irish Green",
-"slug": "irish-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000GI_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000GI_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000GI_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000GI_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "5000",
-"colour": "Safety Green",
-"slug": "safety-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000GS_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000GS_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000GS_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000GS_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "5000",
-"colour": "Heliconia",
-"slug": "heliconia",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000HE_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000HE_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000HE_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000HE_D1.jpg"
 ]
 },
 {
@@ -5225,13 +5227,13 @@
 {
 "brand": "Gildan",
 "code": "5000",
-"colour": "Indigo Blue",
-"slug": "indigo-blue",
+"colour": "Heliconia",
+"slug": "heliconia",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000IB_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000IB_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000IB_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000IB_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000HE_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000HE_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000HE_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000HE_D1.jpg"
 ]
 },
 {
@@ -5249,6 +5251,30 @@
 {
 "brand": "Gildan",
 "code": "5000",
+"colour": "Indigo Blue",
+"slug": "indigo-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000IB_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000IB_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000IB_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000IB_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "5000",
+"colour": "Irish Green",
+"slug": "irish-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000GI_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000GI_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000GI_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000GI_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "5000",
 "colour": "Kiwi",
 "slug": "kiwi",
 "urls": [
@@ -5261,6 +5287,18 @@
 {
 "brand": "Gildan",
 "code": "5000",
+"colour": "Light Blue",
+"slug": "light-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000LB_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000LB_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000LB_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000LB_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "5000",
 "colour": "Light Pink",
 "slug": "light-pink",
 "urls": [
@@ -5268,6 +5306,30 @@
 "https://ik.imagekit.io/premiumapparel/live2/5000_5000LP_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000_5000LP_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000_5000LP_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "5000",
+"colour": "Lime",
+"slug": "lime",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000LI_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000LI_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000LI_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000LI_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "5000",
+"colour": "Maroon",
+"slug": "maroon",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000MA_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000MA_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000MA_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000MA_D1.jpg"
 ]
 },
 {
@@ -5319,18 +5381,6 @@
 {
 "brand": "Gildan",
 "code": "5000",
-"colour": "Safety Orange",
-"slug": "safety-orange",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000OS_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000OS_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000OS_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000OS_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "5000",
 "colour": "Purple",
 "slug": "purple",
 "urls": [
@@ -5367,6 +5417,30 @@
 {
 "brand": "Gildan",
 "code": "5000",
+"colour": "Safety Green",
+"slug": "safety-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000GS_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000GS_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000GS_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000GS_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "5000",
+"colour": "Safety Orange",
+"slug": "safety-orange",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000OS_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000OS_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000OS_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000OS_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "5000",
 "colour": "Sand",
 "slug": "sand",
 "urls": [
@@ -5379,13 +5453,13 @@
 {
 "brand": "Gildan",
 "code": "5000",
-"colour": "Sport Grey",
-"slug": "sport-grey",
+"colour": "Sapphire",
+"slug": "sapphire",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000SG_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000SG_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000SG_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000SG_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000SP_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000SP_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000SP_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000SP_D1.jpg"
 ]
 },
 {
@@ -5401,13 +5475,13 @@
 {
 "brand": "Gildan",
 "code": "5000",
-"colour": "Sapphire",
-"slug": "sapphire",
+"colour": "Sport Grey",
+"slug": "sport-grey",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000SP_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000SP_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000SP_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000_5000SP_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000SG_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000SG_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000SG_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000_5000SG_D1.jpg"
 ]
 },
 {
@@ -5447,6 +5521,16 @@
 {
 "brand": "Gildan",
 "code": "5000B",
+"colour": "Ash Grey",
+"slug": "ash-grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BAG_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BAG_B1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "5000B",
 "colour": "Azalea",
 "slug": "azalea",
 "urls": [
@@ -5466,6 +5550,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/5000B_5000BBL_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000B_5000BBL_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000B_5000BBL_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "5000B",
+"colour": "Cardinal Red",
+"slug": "cardinal-red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BCR_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BCR_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BCR_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BCR_D1.jpg"
 ]
 },
 {
@@ -5531,18 +5627,6 @@
 {
 "brand": "Gildan",
 "code": "5000B",
-"colour": "Irish Green",
-"slug": "irish-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BGI_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BGI_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BGI_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BGI_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "5000B",
 "colour": "Gold",
 "slug": "gold",
 "urls": [
@@ -5550,18 +5634,6 @@
 "https://ik.imagekit.io/premiumapparel/live2/5000B_5000BGO_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000B_5000BGO_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000B_5000BGO_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "5000B",
-"colour": "Safety Green",
-"slug": "safety-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BGS_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BGS_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BGS_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BGS_D1.jpg"
 ]
 },
 {
@@ -5591,6 +5663,18 @@
 {
 "brand": "Gildan",
 "code": "5000B",
+"colour": "Irish Green",
+"slug": "irish-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BGI_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BGI_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BGI_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BGI_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "5000B",
 "colour": "Light Blue",
 "slug": "light-blue",
 "urls": [
@@ -5598,6 +5682,16 @@
 "https://ik.imagekit.io/premiumapparel/live2/5000B_5000BLB_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000B_5000BLB_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000B_5000BLB_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "5000B",
+"colour": "Light Pink",
+"slug": "light-pink",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BLP_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BLP_B1.jpg"
 ]
 },
 {
@@ -5615,16 +5709,6 @@
 {
 "brand": "Gildan",
 "code": "5000B",
-"colour": "Light Pink",
-"slug": "light-pink",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BLP_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BLP_B1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "5000B",
 "colour": "Maroon",
 "slug": "maroon",
 "urls": [
@@ -5632,6 +5716,26 @@
 "https://ik.imagekit.io/premiumapparel/live2/5000B_5000BMA_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000B_5000BMA_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000B_5000BMA_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "5000B",
+"colour": "Military Green",
+"slug": "military-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BMG_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BMG_B1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "5000B",
+"colour": "Natural",
+"slug": "natural",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BNA_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BNA_B1.jpg"
 ]
 },
 {
@@ -5656,18 +5760,6 @@
 "https://ik.imagekit.io/premiumapparel/live2/5000B_5000BOR_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000B_5000BOR_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000B_5000BOR_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "5000B",
-"colour": "Safety Orange",
-"slug": "safety-orange",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BOS_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BOS_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BOS_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BOS_D1.jpg"
 ]
 },
 {
@@ -5709,6 +5801,30 @@
 {
 "brand": "Gildan",
 "code": "5000B",
+"colour": "Safety Green",
+"slug": "safety-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BGS_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BGS_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BGS_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BGS_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "5000B",
+"colour": "Safety Orange",
+"slug": "safety-orange",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BOS_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BOS_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BOS_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BOS_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "5000B",
 "colour": "Sand",
 "slug": "sand",
 "urls": [
@@ -5716,16 +5832,6 @@
 "https://ik.imagekit.io/premiumapparel/live2/5000B_5000BSA_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000B_5000BSA_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000B_5000BSA_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "5000B",
-"colour": "Sport Grey",
-"slug": "sport-grey",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BSG_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BSG_B1.jpg"
 ]
 },
 {
@@ -5743,6 +5849,16 @@
 {
 "brand": "Gildan",
 "code": "5000B",
+"colour": "Sport Grey",
+"slug": "sport-grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BSG_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BSG_B1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "5000B",
 "colour": "White",
 "slug": "white",
 "urls": [
@@ -5750,48 +5866,6 @@
 "https://ik.imagekit.io/premiumapparel/live2/5000B_5000BW_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000B_5000BW_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000B_5000BW_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "5000B",
-"colour": "Ash Grey",
-"slug": "ash-grey",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BAG_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BAG_B1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "5000B",
-"colour": "Cardinal Red",
-"slug": "cardinal-red",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BCR_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BCR_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BCR_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BCR_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "5000B",
-"colour": "Military Green",
-"slug": "military-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BMG_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BMG_B1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "5000B",
-"colour": "Natural",
-"slug": "natural",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BNA_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000B_5000BNA_B1.jpg"
 ]
 },
 {
@@ -5857,13 +5931,13 @@
 {
 "brand": "Gildan",
 "code": "5000L",
-"colour": "Irish Green",
-"slug": "irish-green",
+"colour": "Heather Sapphire",
+"slug": "heather-sapphire",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LGI_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LGI_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LGI_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LGI_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LHS_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LHS_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LHS_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LHS_D1.jpg"
 ]
 },
 {
@@ -5881,13 +5955,13 @@
 {
 "brand": "Gildan",
 "code": "5000L",
-"colour": "Heather Sapphire",
-"slug": "heather-sapphire",
+"colour": "Irish Green",
+"slug": "irish-green",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LHS_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LHS_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LHS_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LHS_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LGI_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LGI_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LGI_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LGI_D1.jpg"
 ]
 },
 {
@@ -5975,18 +6049,6 @@
 {
 "brand": "Gildan",
 "code": "5000L",
-"colour": "Sport Grey",
-"slug": "sport-grey",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LSG_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LSG_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LSG_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LSG_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "5000L",
 "colour": "Sapphire",
 "slug": "sapphire",
 "urls": [
@@ -5994,6 +6056,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/5000L_5000LSP_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000L_5000LSP_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5000L_5000LSP_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "5000L",
+"colour": "Sport Grey",
+"slug": "sport-grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LSG_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LSG_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LSG_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5000L_5000LSG_D1.jpg"
 ]
 },
 {
@@ -6269,6 +6343,18 @@
 {
 "brand": "Gildan",
 "code": "5400",
+"colour": "Ash Grey",
+"slug": "ash-grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/5400_5400AG_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5400_5400AG_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5400_5400AG_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/5400_5400AG_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "5400",
 "colour": "Black",
 "slug": "black",
 "urls": [
@@ -6308,18 +6394,6 @@
 "https://ik.imagekit.io/premiumapparel/live2/5400_5400W_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5400_5400W_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/5400_5400W_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "5400",
-"colour": "Ash Grey",
-"slug": "ash-grey",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/5400_5400AG_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5400_5400AG_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5400_5400AG_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/5400_5400AG_D1.jpg"
 ]
 },
 {
@@ -6397,102 +6471,6 @@
 {
 "brand": "Gildan",
 "code": "64000",
-"colour": "Charcoal",
-"slug": "charcoal",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000CH_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000CH_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000CH_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000CH_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "64000",
-"colour": "Dark Heather",
-"slug": "dark-heather",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000DH_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000DH_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000DH_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000DH_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "64000",
-"colour": "Navy",
-"slug": "navy",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000NY_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000NY_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000NY_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000NY_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "64000",
-"colour": "Red",
-"slug": "red",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000RE_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000RE_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000RE_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000RE_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "64000",
-"colour": "Royal Blue",
-"slug": "royal-blue",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000RO_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000RO_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000RO_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000RO_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "64000",
-"colour": "Sport Grey",
-"slug": "sport-grey",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000SG_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000SG_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000SG_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000SG_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "64000",
-"colour": "White",
-"slug": "white",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000W_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000W_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000W_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000W_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "64000",
-"colour": "White",
-"slug": "white",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000W_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000W_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000W_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000W_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "64000",
 "colour": "Black",
 "slug": "black",
 "urls": [
@@ -6500,6 +6478,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/64000_64000BL_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/64000_64000BL_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/64000_64000BL_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "64000",
+"colour": "Charcoal",
+"slug": "charcoal",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000CH_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000CH_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000CH_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000CH_D1.jpg"
 ]
 },
 {
@@ -6551,13 +6541,13 @@
 {
 "brand": "Gildan",
 "code": "64000",
-"colour": "Irish Green",
-"slug": "irish-green",
+"colour": "Dark Heather",
+"slug": "dark-heather",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000GI_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000GI_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000GI_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000GI_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000DH_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000DH_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000DH_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000DH_D1.jpg"
 ]
 },
 {
@@ -6575,6 +6565,18 @@
 {
 "brand": "Gildan",
 "code": "64000",
+"colour": "Ice Grey",
+"slug": "ice-grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000IG_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000IG_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000IG_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000IG_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "64000",
 "colour": "Indigo Blue",
 "slug": "indigo-blue",
 "urls": [
@@ -6587,13 +6589,13 @@
 {
 "brand": "Gildan",
 "code": "64000",
-"colour": "Ice Grey",
-"slug": "ice-grey",
+"colour": "Irish Green",
+"slug": "irish-green",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000IG_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000IG_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000IG_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64000_64000IG_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000GI_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000GI_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000GI_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000GI_D1.jpg"
 ]
 },
 {
@@ -6671,6 +6673,18 @@
 {
 "brand": "Gildan",
 "code": "64000",
+"colour": "Navy",
+"slug": "navy",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000NY_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000NY_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000NY_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000NY_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "64000",
 "colour": "Orange",
 "slug": "orange",
 "urls": [
@@ -6695,6 +6709,30 @@
 {
 "brand": "Gildan",
 "code": "64000",
+"colour": "Red",
+"slug": "red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000RE_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000RE_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000RE_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000RE_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "64000",
+"colour": "Royal Blue",
+"slug": "royal-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000RO_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000RO_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000RO_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000RO_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "64000",
 "colour": "Sand",
 "slug": "sand",
 "urls": [
@@ -6714,6 +6752,42 @@
 "https://ik.imagekit.io/premiumapparel/live2/64000_64000SG_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/64000_64000SG_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/64000_64000SG_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "64000",
+"colour": "Sport Grey",
+"slug": "sport-grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000SG_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000SG_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000SG_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000SG_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "64000",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000W_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000W_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000W_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000W_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "64000",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000W_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000W_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000W_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64000_64000W_D1.jpg"
 ]
 },
 {
@@ -6994,6 +7068,18 @@
 {
 "brand": "Gildan",
 "code": "64800",
+"colour": "Forest Green",
+"slug": "forest-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/64800_64800FG_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64800_64800FG_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64800_64800FG_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/64800_64800FG_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "64800",
 "colour": "Navy",
 "slug": "navy",
 "urls": [
@@ -7049,18 +7135,6 @@
 "https://ik.imagekit.io/premiumapparel/live2/64800_64800W_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/64800_64800W_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/64800_64800W_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "64800",
-"colour": "Forest Green",
-"slug": "forest-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/64800_64800FG_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64800_64800FG_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64800_64800FG_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/64800_64800FG_D1.jpg"
 ]
 },
 {
@@ -7316,16 +7390,6 @@
 {
 "brand": "Gildan",
 "code": "65000",
-"colour": "Irish Green",
-"slug": "irish-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/65000_65000GI_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/65000_65000GI_B1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "65000",
 "colour": "Heliconia",
 "slug": "heliconia",
 "urls": [
@@ -7333,6 +7397,16 @@
 "https://ik.imagekit.io/premiumapparel/live2/65000_65000HE_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/65000_65000HE_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/65000_65000HE_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "65000",
+"colour": "Irish Green",
+"slug": "irish-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/65000_65000GI_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/65000_65000GI_B1.jpg"
 ]
 },
 {
@@ -7434,6 +7508,18 @@
 {
 "brand": "Gildan",
 "code": "65000",
+"colour": "Sage",
+"slug": "sage",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/65000_65000SE_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/65000_65000SE_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/65000_65000SE_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/65000_65000SE_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "65000",
 "colour": "Sand",
 "slug": "sand",
 "urls": [
@@ -7446,25 +7532,13 @@
 {
 "brand": "Gildan",
 "code": "65000",
-"colour": "Stone Blue",
-"slug": "stone-blue",
+"colour": "Sapphire",
+"slug": "sapphire",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/65000_65000SB_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/65000_65000SB_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/65000_65000SB_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/65000_65000SB_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "65000",
-"colour": "Sage",
-"slug": "sage",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/65000_65000SE_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/65000_65000SE_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/65000_65000SE_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/65000_65000SE_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/65000_65000SP_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/65000_65000SP_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/65000_65000SP_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/65000_65000SP_D1.jpg"
 ]
 },
 {
@@ -7482,13 +7556,13 @@
 {
 "brand": "Gildan",
 "code": "65000",
-"colour": "Sapphire",
-"slug": "sapphire",
+"colour": "Stone Blue",
+"slug": "stone-blue",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/65000_65000SP_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/65000_65000SP_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/65000_65000SP_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/65000_65000SP_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/65000_65000SB_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/65000_65000SB_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/65000_65000SB_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/65000_65000SB_D1.jpg"
 ]
 },
 {
@@ -7708,18 +7782,6 @@
 {
 "brand": "Gildan",
 "code": "65000L",
-"colour": "Sport Grey",
-"slug": "sport-grey",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/65000L_65000LSG_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/65000L_65000LSG_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/65000L_65000LSG_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/65000L_65000LSG_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "65000L",
 "colour": "Sapphire",
 "slug": "sapphire",
 "urls": [
@@ -7727,6 +7789,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/65000L_65000LSP_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/65000L_65000LSP_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/65000L_65000LSP_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "65000L",
+"colour": "Sport Grey",
+"slug": "sport-grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/65000L_65000LSG_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/65000L_65000LSG_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/65000L_65000LSG_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/65000L_65000LSG_D1.jpg"
 ]
 },
 {
@@ -7755,14 +7829,11 @@
 },
 {
 "brand": "Gildan",
-"code": "75000",
-"colour": "Blue Dusk",
-"slug": "blue-dusk",
+"code": "711",
+"colour": "White Grey",
+"slug": "white-grey",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/75000_75000BD_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/75000_75000BD_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/75000_75000BD_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/75000_75000BD_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/GP-711-6MGF.jpg"
 ]
 },
 {
@@ -7775,6 +7846,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/75000_75000BL_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/75000_75000BL_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/75000_75000BL_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "75000",
+"colour": "Blue Dusk",
+"slug": "blue-dusk",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/75000_75000BD_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/75000_75000BD_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/75000_75000BD_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/75000_75000BD_D1.jpg"
 ]
 },
 {
@@ -7968,18 +8051,6 @@
 {
 "brand": "American Apparel",
 "code": "9001",
-"colour": "Brown",
-"slug": "brown",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/9001_9001BN_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/9001_9001BN_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/9001_9001BN_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/9001_9001BN_D1.jpg"
-]
-},
-{
-"brand": "American Apparel",
-"code": "9001",
 "colour": "Bone",
 "slug": "bone",
 "urls": [
@@ -7987,6 +8058,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/9001_9001BON_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/9001_9001BON_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/9001_9001BON_D1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "9001",
+"colour": "Brown",
+"slug": "brown",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/9001_9001BN_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/9001_9001BN_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/9001_9001BN_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/9001_9001BN_D1.jpg"
 ]
 },
 {
@@ -8148,18 +8231,6 @@
 {
 "brand": "American Apparel",
 "code": "9410",
-"colour": "Brown",
-"slug": "brown",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/9410_9410BN_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/9410_9410BN_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/9410_9410BN_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/9410_9410BN_D1.jpg"
-]
-},
-{
-"brand": "American Apparel",
-"code": "9410",
 "colour": "Bone",
 "slug": "bone",
 "urls": [
@@ -8167,6 +8238,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/9410_9410BON_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/9410_9410BON_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/9410_9410BON_D1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "9410",
+"colour": "Brown",
+"slug": "brown",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/9410_9410BN_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/9410_9410BN_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/9410_9410BN_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/9410_9410BN_D1.jpg"
 ]
 },
 {
@@ -8220,13 +8303,13 @@
 {
 "brand": "Adidas",
 "code": "A230",
-"colour": "Grey Melange",
-"slug": "grey-melange",
+"colour": "Black",
+"slug": "black",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/A2302N_A2302GM_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/A2302N_A2302GM_B1.png",
-"https://ik.imagekit.io/premiumapparel/live2/A2302N_A2302GM_C1.png",
-"https://ik.imagekit.io/premiumapparel/live2/A2302N_A2302GM_D1.png"
+"https://ik.imagekit.io/premiumapparel/live2/A2302N_A2302BL_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/A2302N_A2302BL_B1.png",
+"https://ik.imagekit.io/premiumapparel/live2/A2302N_A2302BL_C1.png",
+"https://ik.imagekit.io/premiumapparel/live2/A2302N_A2302BL_D1.png"
 ]
 },
 {
@@ -8244,13 +8327,13 @@
 {
 "brand": "Adidas",
 "code": "A230",
-"colour": "Black",
-"slug": "black",
+"colour": "Grey Melange",
+"slug": "grey-melange",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/A2302N_A2302BL_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/A2302N_A2302BL_B1.png",
-"https://ik.imagekit.io/premiumapparel/live2/A2302N_A2302BL_C1.png",
-"https://ik.imagekit.io/premiumapparel/live2/A2302N_A2302BL_D1.png"
+"https://ik.imagekit.io/premiumapparel/live2/A2302N_A2302GM_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/A2302N_A2302GM_B1.png",
+"https://ik.imagekit.io/premiumapparel/live2/A2302N_A2302GM_C1.png",
+"https://ik.imagekit.io/premiumapparel/live2/A2302N_A2302GM_D1.png"
 ]
 },
 {
@@ -8377,6 +8460,18 @@
 ]
 },
 {
+"brand": "Thule",
+"code": "ACCENT28L",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/TACBP2216_A.png",
+"https://ik.imagekit.io/premiumapparel/live2/TACBP2216_B.png",
+"https://ik.imagekit.io/premiumapparel/live2/TACBP2216_C.png",
+"https://ik.imagekit.io/premiumapparel/live2/TACBP2216_D.png"
+]
+},
+{
 "brand": "Headwear24",
 "code": "B1900",
 "colour": "Black",
@@ -8469,19 +8564,19 @@
 {
 "brand": "Headwear24",
 "code": "B2200",
-"colour": "Grey Melange",
-"slug": "grey-melange",
+"colour": "Grey",
+"slug": "grey",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/HB2200_HB2200GM_A1.png"
+"https://ik.imagekit.io/premiumapparel/live2/HB2200_HB2200GR_A1.png"
 ]
 },
 {
 "brand": "Headwear24",
 "code": "B2200",
-"colour": "Grey",
-"slug": "grey",
+"colour": "Grey Melange",
+"slug": "grey-melange",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/HB2200_HB2200GR_A1.png"
+"https://ik.imagekit.io/premiumapparel/live2/HB2200_HB2200GM_A1.png"
 ]
 },
 {
@@ -8745,18 +8840,6 @@
 {
 "brand": "Champion",
 "code": "CH1000",
-"colour": "Lilac Pink",
-"slug": "lilac-pink",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/CH1000_CH1000LPI_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/CH1000_CH1000LPI_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/CH1000_CH1000LPI_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/CH1000_CH1000LPI_D1.jpg"
-]
-},
-{
-"brand": "Champion",
-"code": "CH1000",
 "colour": "Light Steel",
 "slug": "light-steel",
 "urls": [
@@ -8764,6 +8847,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/CH1000_CH1000LS_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/CH1000_CH1000LS_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/CH1000_CH1000LS_D1.jpg"
+]
+},
+{
+"brand": "Champion",
+"code": "CH1000",
+"colour": "Lilac Pink",
+"slug": "lilac-pink",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/CH1000_CH1000LPI_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/CH1000_CH1000LPI_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/CH1000_CH1000LPI_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/CH1000_CH1000LPI_D1.jpg"
 ]
 },
 {
@@ -8984,18 +9079,6 @@
 {
 "brand": "Champion",
 "code": "CO200",
-"colour": "Safety Green",
-"slug": "safety-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/CO200_CO200GS_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/CO200_CO200GS_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/CO200_CO200GS_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/CO200_CO200GS_D1.jpg"
-]
-},
-{
-"brand": "Champion",
-"code": "CO200",
 "colour": "Light Blue",
 "slug": "light-blue",
 "urls": [
@@ -9063,6 +9146,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/CO200_CO200RO_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/CO200_CO200RO_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/CO200_CO200RO_D1.jpg"
+]
+},
+{
+"brand": "Champion",
+"code": "CO200",
+"colour": "Safety Green",
+"slug": "safety-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/CO200_CO200GS_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/CO200_CO200GS_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/CO200_CO200GS_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/CO200_CO200GS_D1.jpg"
 ]
 },
 {
@@ -9243,6 +9338,26 @@
 "https://ik.imagekit.io/premiumapparel/live2/HF24503_HF24503SKWSK_A1.png",
 "https://ik.imagekit.io/premiumapparel/live2/HF24503_HF24503SKWSK_B1.png",
 "https://ik.imagekit.io/premiumapparel/live2/HF24503_HF24503SKWSK_C1.png"
+]
+},
+{
+"brand": "Gildan",
+"code": "GBM0012",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/GBM0012 Men's collon ankle-black-single.png",
+"https://ik.imagekit.io/premiumapparel/live2/GBM0012 Men's Cotton Ankle Sock 10 Pair Pack-Black.png"
+]
+},
+{
+"brand": "Gildan",
+"code": "GBM0012",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/GBM0012 Men's Cotton Ankle Sock 10 Pair Pack-white.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/GBM0012 Men's collon ankle-white-single.jpg"
 ]
 },
 {
@@ -9440,15 +9555,6 @@
 {
 "brand": "Headwear24",
 "code": "5002",
-"colour": "Navy",
-"slug": "navy",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/H5002_H5001NY_A1.png"
-]
-},
-{
-"brand": "Headwear24",
-"code": "5002",
 "colour": "Black",
 "slug": "black",
 "urls": [
@@ -9471,6 +9577,15 @@
 "slug": "grey-melange",
 "urls": [
 "https://ik.imagekit.io/premiumapparel/live2/H5002_H5002GM_A1.png"
+]
+},
+{
+"brand": "Headwear24",
+"code": "5002",
+"colour": "Navy",
+"slug": "navy",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/H5002_H5001NY_A1.png"
 ]
 },
 {
@@ -9936,6 +10051,16 @@
 {
 "brand": "Headwear24",
 "code": "6055",
+"colour": "Dark Navy",
+"slug": "dark-navy",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/H6055_H6055DN_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/H6055_H6055DN_B1.png"
+]
+},
+{
+"brand": "Headwear24",
+"code": "6055",
 "colour": "Maroon",
 "slug": "maroon",
 "urls": [
@@ -9971,16 +10096,6 @@
 "urls": [
 "https://ik.imagekit.io/premiumapparel/live2/H6055_H6055RO_A1.png",
 "https://ik.imagekit.io/premiumapparel/live2/H6055_H6055RO_B1.png"
-]
-},
-{
-"brand": "Headwear24",
-"code": "6055",
-"colour": "Dark Navy",
-"slug": "dark-navy",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/H6055_H6055DN_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/H6055_H6055DN_B1.png"
 ]
 },
 {
@@ -10066,6 +10181,15 @@
 {
 "brand": "Headwear24",
 "code": "B001",
+"colour": "Camo",
+"slug": "camo",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/HB001_B001CA_A1.png"
+]
+},
+{
+"brand": "Headwear24",
+"code": "B001",
 "colour": "Charcoal Melange",
 "slug": "charcoal-melange",
 "urls": [
@@ -10079,6 +10203,24 @@
 "slug": "copper",
 "urls": [
 "https://ik.imagekit.io/premiumapparel/live2/HB001_B001CO_A1.png"
+]
+},
+{
+"brand": "Headwear24",
+"code": "B001",
+"colour": "Fluro Orange",
+"slug": "fluro-orange",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/HB001_B001OR_A1.png"
+]
+},
+{
+"brand": "Headwear24",
+"code": "B001",
+"colour": "Fluro Yellow",
+"slug": "fluro-yellow",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/HB001_B001YE_A1.png"
 ]
 },
 {
@@ -10129,15 +10271,6 @@
 {
 "brand": "Headwear24",
 "code": "B001",
-"colour": "Fluro Orange",
-"slug": "fluro-orange",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/HB001_B001OR_A1.png"
-]
-},
-{
-"brand": "Headwear24",
-"code": "B001",
 "colour": "Petrol",
 "slug": "petrol",
 "urls": [
@@ -10174,15 +10307,6 @@
 {
 "brand": "Headwear24",
 "code": "B001",
-"colour": "Stone Blue",
-"slug": "stone-blue",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/HB001_B001SB_A1.png"
-]
-},
-{
-"brand": "Headwear24",
-"code": "B001",
 "colour": "Sky",
 "slug": "sky",
 "urls": [
@@ -10201,28 +10325,19 @@
 {
 "brand": "Headwear24",
 "code": "B001",
+"colour": "Stone Blue",
+"slug": "stone-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/HB001_B001SB_A1.png"
+]
+},
+{
+"brand": "Headwear24",
+"code": "B001",
 "colour": "White",
 "slug": "white",
 "urls": [
 "https://ik.imagekit.io/premiumapparel/live2/HB001_B001WH_A1.png"
-]
-},
-{
-"brand": "Headwear24",
-"code": "B001",
-"colour": "Fluro Yellow",
-"slug": "fluro-yellow",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/HB001_B001YE_A1.png"
-]
-},
-{
-"brand": "Headwear24",
-"code": "B001",
-"colour": "Camo",
-"slug": "camo",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/HB001_B001CA_A1.png"
 ]
 },
 {
@@ -10548,18 +10663,6 @@
 {
 "brand": "UFlex",
 "code": "U15502",
-"colour": "White/Sky Mesh",
-"slug": "white-sky-mesh",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/HU15502_HU15502SK_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU15502_HU15502SK_A2.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU15502_HU15502SK_A3.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU15502_HU15502SK_A4.jpg"
-]
-},
-{
-"brand": "UFlex",
-"code": "U15502",
 "colour": "White/Black Mesh",
 "slug": "white-black-mesh",
 "urls": [
@@ -10591,6 +10694,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/HU15502_HU15502REWH_A2.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/HU15502_HU15502REWH_A3.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/HU15502_HU15502REWH_A4.jpg"
+]
+},
+{
+"brand": "UFlex",
+"code": "U15502",
+"colour": "White/Sky Mesh",
+"slug": "white-sky-mesh",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/HU15502_HU15502SK_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU15502_HU15502SK_A2.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU15502_HU15502SK_A3.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU15502_HU15502SK_A4.jpg"
 ]
 },
 {
@@ -10966,42 +11081,6 @@
 {
 "brand": "UFlex",
 "code": "U15608",
-"colour": "Irish Green",
-"slug": "irish-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/HU15608_IrishGreen_Front.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU15608_IrishGreen_Back.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU15608_IrishGreen_Right_Side.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU15608_IrishGreen_Right_Side.jpg"
-]
-},
-{
-"brand": "UFlex",
-"code": "U15608",
-"colour": "Royal",
-"slug": "royal",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/HU15608_HU15608RO_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU15608_HU15608RO_A2.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU15608_HU15608RO_A3.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU15608_HU15608RO_A4.jpg"
-]
-},
-{
-"brand": "UFlex",
-"code": "U15608",
-"colour": "White",
-"slug": "white",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/HU15608_White_Front.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU15608_White_Back.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU15608_White_Left_Side.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU15608_White_Right_Side.jpg"
-]
-},
-{
-"brand": "UFlex",
-"code": "U15608",
 "colour": "Black",
 "slug": "black",
 "urls": [
@@ -11050,6 +11129,18 @@
 {
 "brand": "UFlex",
 "code": "U15608",
+"colour": "Irish Green",
+"slug": "irish-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/HU15608_IrishGreen_Front.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU15608_IrishGreen_Back.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU15608_IrishGreen_Right_Side.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU15608_IrishGreen_Right_Side.jpg"
+]
+},
+{
+"brand": "UFlex",
+"code": "U15608",
 "colour": "Navy",
 "slug": "navy",
 "urls": [
@@ -11069,6 +11160,30 @@
 "https://ik.imagekit.io/premiumapparel/live2/HU15608_HU15608RE_A2.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/HU15608_HU15608RE_A3.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/HU15608_HU15608RE_A4.jpg"
+]
+},
+{
+"brand": "UFlex",
+"code": "U15608",
+"colour": "Royal",
+"slug": "royal",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/HU15608_HU15608RO_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU15608_HU15608RO_A2.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU15608_HU15608RO_A3.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU15608_HU15608RO_A4.jpg"
+]
+},
+{
+"brand": "UFlex",
+"code": "U15608",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/HU15608_White_Front.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU15608_White_Back.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU15608_White_Left_Side.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU15608_White_Right_Side.jpg"
 ]
 },
 {
@@ -11530,18 +11645,6 @@
 {
 "brand": "UFlex",
 "code": "U22505",
-"colour": "Blue Jean",
-"slug": "blue-jean",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/HU22505_HU22505BJ_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU22505_HU22505BJ_A2.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU22505_HU22505BJ_A3.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU22505_HU22505BJ_A4.jpg"
-]
-},
-{
-"brand": "UFlex",
-"code": "U22505",
 "colour": "Black",
 "slug": "black",
 "urls": [
@@ -11549,6 +11652,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/HU22505_HU22505BL_A2.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/HU22505_HU22505BL_A3.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/HU22505_HU22505BL_A4.jpg"
+]
+},
+{
+"brand": "UFlex",
+"code": "U22505",
+"colour": "Blue Jean",
+"slug": "blue-jean",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/HU22505_HU22505BJ_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU22505_HU22505BJ_A2.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU22505_HU22505BJ_A3.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU22505_HU22505BJ_A4.jpg"
 ]
 },
 {
@@ -11585,6 +11700,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/HU22505_HU22505MG_A2.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/HU22505_HU22505MG_A3.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/HU22505_HU22505MG_A4.jpg"
+]
+},
+{
+"brand": "UFlex",
+"code": "U22610",
+"colour": "Aqua Mint",
+"slug": "aqua-mint",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/HU22610_HU22610AQ_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU22610_HU22610AQ_A2.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU22610_HU22610AQ_A3.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU22610_HU22610AQ_A4.jpg"
 ]
 },
 {
@@ -11645,18 +11772,6 @@
 "https://ik.imagekit.io/premiumapparel/live2/HU22610_HU22610OL_A2.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/HU22610_HU22610OL_A3.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/HU22610_HU22610OL_A4.jpg"
-]
-},
-{
-"brand": "UFlex",
-"code": "U22610",
-"colour": "Aqua Mint",
-"slug": "aqua-mint",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/HU22610_HU22610AQ_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU22610_HU22610AQ_A2.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU22610_HU22610AQ_A3.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU22610_HU22610AQ_A4.jpg"
 ]
 },
 {
@@ -12062,15 +12177,105 @@
 ]
 },
 {
-"brand": "Headwear24",
-"code": "P17002",
-"colour": "Grey",
-"slug": "grey",
+"brand": "Premium Apparel",
+"code": "KN952",
+"colour": "White",
+"slug": "white",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/HP17002_HP17002GR_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/HP17002_HP17002GR_B1.png",
-"https://ik.imagekit.io/premiumapparel/live2/HP17002_HP17002GR_C1.png",
-"https://ik.imagekit.io/premiumapparel/live2/HP17002_HP17002GR_D1.png"
+"https://ik.imagekit.io/premiumapparel/live2/KN95_A1.png"
+]
+},
+{
+"brand": "PremSub Stock",
+"code": "KRuckShort",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000BLK_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000BLK_B1.png"
+]
+},
+{
+"brand": "PremSub Stock",
+"code": "KRuckShort",
+"colour": "Forest Green",
+"slug": "forest-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000FOR_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000FOR_B1.png"
+]
+},
+{
+"brand": "PremSub Stock",
+"code": "KRuckShort",
+"colour": "Maroon",
+"slug": "maroon",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000MAR_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000MAR_B1.png"
+]
+},
+{
+"brand": "PremSub Stock",
+"code": "KRuckShort",
+"colour": "Navy",
+"slug": "navy",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000NAV_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000NAV_B1.png"
+]
+},
+{
+"brand": "PremSub Stock",
+"code": "KRuckShort",
+"colour": "Royal",
+"slug": "royal",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000ROY_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000ROY_B1.png"
+]
+},
+{
+"brand": "PremSub Stock",
+"code": "KRuckShort",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000WHT_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000WHT_B1.png"
+]
+},
+{
+"brand": "Premium Apparel",
+"code": "MEDMAS25",
+"colour": "Blue",
+"slug": "blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/MEDMAS10.png"
+]
+},
+{
+"brand": "Macpac",
+"code": "MPHALOBLK",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/MPHALO_MPHALOBLK_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/MPHALO_MPHALOBLK_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/MPHALO_MPHALOBLK_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/MPHALO_MPHALOBLK_D1.jpg"
+]
+},
+{
+"brand": "Premium Apparel",
+"code": "N95Y",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/N95YWH_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/N95YWH_B1.png",
+"https://ik.imagekit.io/premiumapparel/live2/N95YWH_C1.png",
+"https://ik.imagekit.io/premiumapparel/live2/N95YWH_D1.png"
 ]
 },
 {
@@ -12083,6 +12288,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/HP17002_HP17002BL_B1.png",
 "https://ik.imagekit.io/premiumapparel/live2/HP17002_HP17002BL_C1.png",
 "https://ik.imagekit.io/premiumapparel/live2/HP17002_HP17002BL_D1.png"
+]
+},
+{
+"brand": "Headwear24",
+"code": "P17002",
+"colour": "Grey",
+"slug": "grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/HP17002_HP17002GR_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/HP17002_HP17002GR_B1.png",
+"https://ik.imagekit.io/premiumapparel/live2/HP17002_HP17002GR_C1.png",
+"https://ik.imagekit.io/premiumapparel/live2/HP17002_HP17002GR_D1.png"
 ]
 },
 {
@@ -12158,6 +12375,1083 @@
 ]
 },
 {
+"brand": "Thule",
+"code": "Powershuttle",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/TSPW401_A.png",
+"https://ik.imagekit.io/premiumapparel/live2/TSPW401_B.png",
+"https://ik.imagekit.io/premiumapparel/live2/TSPW401_C.png"
+]
+},
+{
+"brand": "Premium Apparel",
+"code": "PREMAS",
+"colour": "Grey",
+"slug": "grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PREMAS_GR_A1.png"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0208NZ",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0208NZ_PTS0208NZ10_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTS0208NZ_PTS0208NZ10_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0208NZ",
+"colour": "Heather Grey",
+"slug": "heather-grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0208NZ_PTS0208NZ063_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTS0208NZ_PTS0208NZ063_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0208NZ",
+"colour": "Obsidian",
+"slug": "obsidian",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0208NZ_PTS0208NZ451_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTS0208NZ_PTS0208NZ451_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0208NZ",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0208NZ_PTS0208NZ100_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTS0208NZ_PTS0208NZ100_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0213NZ",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0213NZ_PTS0213NZ10_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTS0213NZ_PTS0213NZ10_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0213NZ",
+"colour": "Heather Grey",
+"slug": "heather-grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0213NZ_PTS0213NZ063_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTS0213NZ_PTS0213NZ063_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0213NZ",
+"colour": "Obsidian",
+"slug": "obsidian",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0213NZ_PTS0213NZ451_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTS0213NZ_PTS0213NZ451_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0213NZ",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0213NZ_PTS0213NZ100_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTS0213NZ_PTS0213NZ100_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0223NZ",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0223NZ_PTS0223NZ10_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0223NZ",
+"colour": "Obsidian",
+"slug": "obsidian",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0223NZ_PTS0223NZ451_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0227NZ",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0227NZ_PTS0227NZ10_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0227NZ",
+"colour": "Obsidian",
+"slug": "obsidian",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0227NZ_PTS0227NZ451_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0227NZ",
+"colour": "Royal Blue",
+"slug": "royal-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0227NZ_PTS0227NZ463_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0227NZ",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0227NZ_PTS0227NZ100_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0228NZ",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0228NZ_PTS0228NZ10_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0228NZ",
+"colour": "Heather Grey",
+"slug": "heather-grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0228NZ_PTS0228NZ063_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0228NZ",
+"colour": "Obsidian",
+"slug": "obsidian",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0228NZ_PTS0228NZ451_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0229NZ",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0229NZ_PTS0229NZ10_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0229NZ",
+"colour": "Heather Grey",
+"slug": "heather-grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0229NZ_PTS0229NZ063_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0229NZ",
+"colour": "Obsidian",
+"slug": "obsidian",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0229NZ_PTS0229NZ451_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0229NZ",
+"colour": "Royal Blue",
+"slug": "royal-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0229NZ_PTS0229NZ463_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0229NZ",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0229NZ_PTS0229NZ100_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0230NZ",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0230NZ_PTS0230NZ10_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0230NZ",
+"colour": "Heather Grey",
+"slug": "heather-grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0230NZ_PTS0230NZ063_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0230NZ",
+"colour": "Obsidian",
+"slug": "obsidian",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0230NZ_PTS0230NZ451_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0231NZ",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0231NZ_PTS0231NZ10_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0231NZ",
+"colour": "Heather Grey",
+"slug": "heather-grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0231NZ_PTS0231NZ063_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0231NZ",
+"colour": "Obsidian",
+"slug": "obsidian",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0231NZ_PTS0231NZ451_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0231NZ",
+"colour": "Royal Blue",
+"slug": "royal-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0231NZ_PTS0231NZ463_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTS0231NZ",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTS0231NZ_PTS0231NZ100_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19913",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19913_PTSA1991310_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19913_PTSA1991310_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19913",
+"colour": "Obsidian",
+"slug": "obsidian",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19913_PTSA19913451_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19913_PTSA19913451_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19913",
+"colour": "Royal Blue",
+"slug": "royal-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19913_PTSA19913463_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19913_PTSA19913463_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19913",
+"colour": "University Red",
+"slug": "university-red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19913_PTSA19913657_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19913_PTSA19913657_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19913",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19913_PTSA19913100_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19913_PTSA19913100_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19913",
+"colour": "White/Obsidian",
+"slug": "white-obsidian",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19913_PTSA19913101_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19913_PTSA19913101_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19913",
+"colour": "White/Royal Blue",
+"slug": "white-royal-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19913_PTSA19913102_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19913_PTSA19913102_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19913",
+"colour": "White/University Red",
+"slug": "white-university-red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19913_PTSA19913103_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19913_PTSA19913103_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19914",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19914_PTSA1991410_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19914_PTSA1991410_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19914",
+"colour": "Obsidian",
+"slug": "obsidian",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19914_PTSA19914451_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19914_PTSA19914451_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19914",
+"colour": "Royal Blue",
+"slug": "royal-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19914_PTSA19914463_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19914",
+"colour": "University Red",
+"slug": "university-red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19914_PTSA19914657_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19914_PTSA19914657_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19914",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19914_PTSA19914100_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19914_PTSA19914100_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19914",
+"colour": "White/Obsidian",
+"slug": "white-obsidian",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19914_PTSA19914101_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19914_PTSA19914101_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19914",
+"colour": "White/Royal Blue",
+"slug": "white-royal-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19914_PTSA19914102_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19914_PTSA19914102_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19914",
+"colour": "White/University Red",
+"slug": "white-university-red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19914_PTSA19914103_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19914_PTSA19914103_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19915",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19915_PTSA1991510_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19915_PTSA1991510_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19915",
+"colour": "Obsidian",
+"slug": "obsidian",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19915_PTSA19915451_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19915_PTSA19915451_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19915",
+"colour": "Royal Blue",
+"slug": "royal-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19915_PTSA19915463_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19915_PTSA19915463_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19915",
+"colour": "University Red",
+"slug": "university-red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19915_PTSA19915657_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19915_PTSA19915657_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19915",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19915_PTSA19915100_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19915_PTSA19915100_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19916",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19916_PTSA1991610_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19916_PTSA1991610_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19916",
+"colour": "Obsidian",
+"slug": "obsidian",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19916_PTSA19916451_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19916_PTSA19916451_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19916",
+"colour": "Royal Blue",
+"slug": "royal-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19916_PTSA19916463_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19916_PTSA19916463_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19916",
+"colour": "University Red",
+"slug": "university-red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19916_PTSA19916657_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19916_PTSA19916657_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19916",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19916_PTSA19916100_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19916_PTSA19916100_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19917",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19917_PTSA1991710_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19917_PTSA1991710_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19917",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19917_PTSA19917100_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19917_PTSA19917100_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19918",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19918_PTSA1991810_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19918_PTSA1991810_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19918",
+"colour": "Obsidian",
+"slug": "obsidian",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19918_PTSA19918451_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19918_PTSA19918451_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19918",
+"colour": "Royal Blue",
+"slug": "royal-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19918_PTSA19918463_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19918_PTSA19918463_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19918",
+"colour": "University Red",
+"slug": "university-red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19918_PTSA19918657_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19918_PTSA19918657_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19918",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19918_PTSA19918100_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19918_PTSA19918100_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19919",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19919_PTSA1991910_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19919_PTSA1991910_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19919",
+"colour": "Obsidian",
+"slug": "obsidian",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19919_PTSA19919451_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19919_PTSA19919451_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19919",
+"colour": "Royal Blue",
+"slug": "royal-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19919_PTSA19919463_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19919_PTSA19919463_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19919",
+"colour": "University Red",
+"slug": "university-red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19919_PTSA19919657_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19919_PTSA19919657_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19920",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19920_PTSA1992010_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19920",
+"colour": "Obsidian",
+"slug": "obsidian",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19920_PTSA19920451_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA19920",
+"colour": "University Red",
+"slug": "university-red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA19920_PTSA19920657_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20107",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20107_PTSA2010710_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20136",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20136_PTSA2013610_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20136_PTSA2013610_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20136",
+"colour": "University Red",
+"slug": "university-red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20136_PTSA20136657_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20136_PTSA20136657_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20136",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20136_PTSA20136100_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20136_PTSA20136100_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20137",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20137_PTSA2013710_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20137_PTSA2013710_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20137",
+"colour": "University Red",
+"slug": "university-red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20137_PTSA20137657_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20137_PTSA20137657_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20137",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20137_PTSA20137100_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20137_PTSA20137100_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20138",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20138_PTSA2013810_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20138_PTSA2013810_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20138",
+"colour": "Royal Blue",
+"slug": "royal-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20138_PTSA20138463_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20138_PTSA20138463_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20138",
+"colour": "University Red",
+"slug": "university-red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20138_PTSA20138657_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20138_PTSA20138657_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20139",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20139_PTSA20139010_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20139_PTSA20139010_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20139",
+"colour": "Cool Grey",
+"slug": "cool-grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20139_PTSA20139005_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20141",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20141_PTSA20141010_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20141",
+"colour": "Cool Grey",
+"slug": "cool-grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20141_PTSA20141005_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20142",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20142_PTSA20142010_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20142",
+"colour": "Cool Grey",
+"slug": "cool-grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20142_PTSA20142005_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20142",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20142_PTSA20142100_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20143",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20143_PTSA2014310_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20143_PTSA2014310_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20143",
+"colour": "University Red",
+"slug": "university-red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20143_PTSA20143657_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20143_PTSA20143657_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20143",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20143_PTSA20143100_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20143_PTSA20143100_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20144",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20144_PTSA2014410_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20144_PTSA2014410_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20144",
+"colour": "University Red",
+"slug": "university-red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20144_PTSA20144657_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20144_PTSA20144657_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20144",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20144_PTSA20144100_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20144_PTSA20144100_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20146",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20146_PTSA20146010_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20146",
+"colour": "Cool Grey",
+"slug": "cool-grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20146_PTSA20146005_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20146_PTSA20146005_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20147",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20147_PTSA2014710_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20147_PTSA2014710_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20147",
+"colour": "University Red",
+"slug": "university-red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20147_PTSA20147657_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20147_PTSA20147657_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20147",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20147_PTSA20147100_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20147_PTSA20147100_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20148",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20148_PTSA2014810_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20148_PTSA2014810_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20148",
+"colour": "University Red",
+"slug": "university-red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20148_PTSA20148657_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20148_PTSA20148657_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20148",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20148_PTSA20148100_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20148_PTSA20148100_D1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20150",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20150_PTSA20150010_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20150",
+"colour": "Cool Grey",
+"slug": "cool-grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20150_PTSA20150005_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20152",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20152_PTSA20152010_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20152",
+"colour": "Cool Grey",
+"slug": "cool-grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20152_PTSA20152005_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSA20152",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSA20152_PTSA20152100_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSDH7709",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSDH7709_PTSDH770910_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSDH7709",
+"colour": "Obsidian",
+"slug": "obsidian",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSDH7709_PTSDH7709451_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSDH7710",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSDH7710_PTSDH771010_C1.jpg"
+]
+},
+{
+"brand": "PTS Nike",
+"code": "PTSDH7710",
+"colour": "Obsidian",
+"slug": "obsidian",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PTSDH7710_PTSDH7710451_C1.jpg"
+]
+},
+{
 "brand": "Result",
 "code": "R014F",
 "colour": "Black",
@@ -12210,21 +13504,21 @@
 {
 "brand": "Result",
 "code": "R033B",
-"colour": "Forest Green",
-"slug": "forest-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/R033B_R033BFO_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/R033B_R033BFO_B1.png"
-]
-},
-{
-"brand": "Result",
-"code": "R033B",
 "colour": "Burgundy",
 "slug": "burgundy",
 "urls": [
 "https://ik.imagekit.io/premiumapparel/live2/R033B_R033BMA_A1.png",
 "https://ik.imagekit.io/premiumapparel/live2/R033B_R033BMA_B1.png"
+]
+},
+{
+"brand": "Result",
+"code": "R033B",
+"colour": "Forest Green",
+"slug": "forest-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/R033B_R033BFO_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/R033B_R033BFO_B1.png"
 ]
 },
 {
@@ -12330,21 +13624,21 @@
 {
 "brand": "Result",
 "code": "R036B",
-"colour": "Forest Green",
-"slug": "forest-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/R036B_R036BFG_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/R036B_R036BFG_B1.png"
-]
-},
-{
-"brand": "Result",
-"code": "R036B",
 "colour": "Burgundy",
 "slug": "burgundy",
 "urls": [
 "https://ik.imagekit.io/premiumapparel/live2/R036B_R036BMA_A1.png",
 "https://ik.imagekit.io/premiumapparel/live2/R036B_R036BMA_B1.png"
+]
+},
+{
+"brand": "Result",
+"code": "R036B",
+"colour": "Forest Green",
+"slug": "forest-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/R036B_R036BFG_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/R036B_R036BFG_B1.png"
 ]
 },
 {
@@ -12390,21 +13684,21 @@
 {
 "brand": "Result",
 "code": "R036X",
-"colour": "Forest Green",
-"slug": "forest-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/R036X_R036XFG_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/R036X_R036XFG_B1.png"
-]
-},
-{
-"brand": "Result",
-"code": "R036X",
 "colour": "Burgundy",
 "slug": "burgundy",
 "urls": [
 "https://ik.imagekit.io/premiumapparel/live2/R036X_R036XMA_A1.png",
 "https://ik.imagekit.io/premiumapparel/live2/R036X_R036XMA_B1.png"
+]
+},
+{
+"brand": "Result",
+"code": "R036X",
+"colour": "Forest Green",
+"slug": "forest-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/R036X_R036XFG_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/R036X_R036XFG_B1.png"
 ]
 },
 {
@@ -12809,21 +14103,21 @@
 {
 "brand": "Result",
 "code": "R207X",
-"colour": "Navy",
-"slug": "navy",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/R207X_R207XNY_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/R207X_R207XNY_B1.png"
-]
-},
-{
-"brand": "Result",
-"code": "R207X",
 "colour": "Black",
 "slug": "black",
 "urls": [
 "https://ik.imagekit.io/premiumapparel/live2/R207X_R207XBL_A1.png",
 "https://ik.imagekit.io/premiumapparel/live2/R207X_R207XBL_B1.png"
+]
+},
+{
+"brand": "Result",
+"code": "R207X",
+"colour": "Navy",
+"slug": "navy",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/R207X_R207XNY_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/R207X_R207XNY_B1.png"
 ]
 },
 {
@@ -13181,12 +14475,12 @@
 },
 {
 "brand": "Work-Guard",
-"code": "R450X",
-"colour": "Safety Yellow/Black",
-"slug": "safety-yellow-black",
+"code": "R322X",
+"colour": "Black",
+"slug": "black",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/R450X_R450XGR_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/R450X_R450XGR_B1.png"
+"https://ik.imagekit.io/premiumapparel/live2/R322X_R322XBL_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/R322X_R322XBL_B1.png"
 ]
 },
 {
@@ -13197,6 +14491,16 @@
 "urls": [
 "https://ik.imagekit.io/premiumapparel/live2/R450X_R450XOR_A1.png",
 "https://ik.imagekit.io/premiumapparel/live2/R450X_R450XOR_B1.png"
+]
+},
+{
+"brand": "Work-Guard",
+"code": "R450X",
+"colour": "Safety Yellow/Black",
+"slug": "safety-yellow-black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/R450X_R450XGR_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/R450X_R450XGR_B1.png"
 ]
 },
 {
@@ -13864,14 +15168,14 @@
 ]
 },
 {
-"brand": "American Apparel",
-"code": "RF491",
-"colour": "Blush",
-"slug": "blush",
+"brand": "Rapid Dry Towels",
+"code": "RDTORG",
+"colour": "Grey/Blue",
+"slug": "grey-blue",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/RF491_RF491BH_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF491_RF491BH_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF491_RF491BH_C1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/RDTORG_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RDTORG_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RDTORG_C1.jpg"
 ]
 },
 {
@@ -13888,12 +15192,12 @@
 {
 "brand": "American Apparel",
 "code": "RF491",
-"colour": "Brown",
-"slug": "brown",
+"colour": "Blush",
+"slug": "blush",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/RF491_RF491BN_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF491_RF491BN_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF491_RF491BN_C1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/RF491_RF491BH_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF491_RF491BH_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF491_RF491BH_C1.jpg"
 ]
 },
 {
@@ -13905,6 +15209,17 @@
 "https://ik.imagekit.io/premiumapparel/live2/RF491_RF491BON_A1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/RF491_RF491BON_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/RF491_RF491BON_C1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "RF491",
+"colour": "Brown",
+"slug": "brown",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/RF491_RF491BN_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF491_RF491BN_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF491_RF491BN_C1.jpg"
 ]
 },
 {
@@ -13944,18 +15259,6 @@
 {
 "brand": "American Apparel",
 "code": "RF494",
-"colour": "Blush",
-"slug": "blush",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/RF494_RF494BH_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF494_RF494BH_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF494_RF494BH_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF494_RF494BH_D1.jpg"
-]
-},
-{
-"brand": "American Apparel",
-"code": "RF494",
 "colour": "Black",
 "slug": "black",
 "urls": [
@@ -13968,13 +15271,13 @@
 {
 "brand": "American Apparel",
 "code": "RF494",
-"colour": "Brown",
-"slug": "brown",
+"colour": "Blush",
+"slug": "blush",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/RF494_RF494BN_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF494_RF494BN_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF494_RF494BN_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF494_RF494BN_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/RF494_RF494BH_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF494_RF494BH_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF494_RF494BH_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF494_RF494BH_D1.jpg"
 ]
 },
 {
@@ -13987,6 +15290,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/RF494_RF494BON_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/RF494_RF494BON_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/RF494_RF494BON_D1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "RF494",
+"colour": "Brown",
+"slug": "brown",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/RF494_RF494BN_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF494_RF494BN_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF494_RF494BN_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF494_RF494BN_D1.jpg"
 ]
 },
 {
@@ -14028,18 +15343,6 @@
 {
 "brand": "American Apparel",
 "code": "RF496",
-"colour": "Blush",
-"slug": "blush",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/RF496_RF496BH_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF496_RF496BH_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF496_RF496BH_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF496_RF496BH_D1.jpg"
-]
-},
-{
-"brand": "American Apparel",
-"code": "RF496",
 "colour": "Black",
 "slug": "black",
 "urls": [
@@ -14052,13 +15355,13 @@
 {
 "brand": "American Apparel",
 "code": "RF496",
-"colour": "Brown",
-"slug": "brown",
+"colour": "Blush",
+"slug": "blush",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/RF496_RF496BN_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF496_RF496BN_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF496_RF496BN_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF496_RF496BN_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/RF496_RF496BH_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF496_RF496BH_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF496_RF496BH_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF496_RF496BH_D1.jpg"
 ]
 },
 {
@@ -14071,6 +15374,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/RF496_RF496BON_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/RF496_RF496BON_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/RF496_RF496BON_D1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "RF496",
+"colour": "Brown",
+"slug": "brown",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/RF496_RF496BN_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF496_RF496BN_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF496_RF496BN_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF496_RF496BN_D1.jpg"
 ]
 },
 {
@@ -14124,18 +15439,6 @@
 {
 "brand": "American Apparel",
 "code": "RF497",
-"colour": "Blush",
-"slug": "blush",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/RF497_RF497BH_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF497_RF497BH_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF497_RF497BH_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF497_RF497BH_D1.jpg"
-]
-},
-{
-"brand": "American Apparel",
-"code": "RF497",
 "colour": "Black",
 "slug": "black",
 "urls": [
@@ -14148,13 +15451,13 @@
 {
 "brand": "American Apparel",
 "code": "RF497",
-"colour": "Brown",
-"slug": "brown",
+"colour": "Blush",
+"slug": "blush",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/RF497_RF497BN_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF497_RF497BN_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF497_RF497BN_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF497_RF497BN_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/RF497_RF497BH_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF497_RF497BH_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF497_RF497BH_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF497_RF497BH_D1.jpg"
 ]
 },
 {
@@ -14167,6 +15470,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/RF497_RF497BON_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/RF497_RF497BON_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/RF497_RF497BON_D1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "RF497",
+"colour": "Brown",
+"slug": "brown",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/RF497_RF497BN_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF497_RF497BN_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF497_RF497BN_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF497_RF497BN_D1.jpg"
 ]
 },
 {
@@ -14232,18 +15547,6 @@
 {
 "brand": "American Apparel",
 "code": "RF498",
-"colour": "Blush",
-"slug": "blush",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/RF498_RF498BH_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF498_RF498BH_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF498_RF498BH_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF498_RF498BH_D1.jpg"
-]
-},
-{
-"brand": "American Apparel",
-"code": "RF498",
 "colour": "Black",
 "slug": "black",
 "urls": [
@@ -14256,13 +15559,13 @@
 {
 "brand": "American Apparel",
 "code": "RF498",
-"colour": "Brown",
-"slug": "brown",
+"colour": "Blush",
+"slug": "blush",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/RF498_RF498BN_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF498_RF498BN_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF498_RF498BN_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/RF498_RF498BN_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/RF498_RF498BH_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF498_RF498BH_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF498_RF498BH_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF498_RF498BH_D1.jpg"
 ]
 },
 {
@@ -14275,6 +15578,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/RF498_RF498BON_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/RF498_RF498BON_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/RF498_RF498BON_D1.jpg"
+]
+},
+{
+"brand": "American Apparel",
+"code": "RF498",
+"colour": "Brown",
+"slug": "brown",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/RF498_RF498BN_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF498_RF498BN_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF498_RF498BN_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/RF498_RF498BN_D1.jpg"
 ]
 },
 {
@@ -14347,6 +15662,66 @@
 "https://ik.imagekit.io/premiumapparel/live2/RF498_RF498W_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/RF498_RF498W_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/RF498_RF498W_D1.jpg"
+]
+},
+{
+"brand": "PremSub Stock",
+"code": "RuckShort",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000BLK_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000BLK_B1.png"
+]
+},
+{
+"brand": "PremSub Stock",
+"code": "RuckShort",
+"colour": "Forest Green",
+"slug": "forest-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000FOR_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000FOR_B1.png"
+]
+},
+{
+"brand": "PremSub Stock",
+"code": "RuckShort",
+"colour": "Maroon",
+"slug": "maroon",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000MAR_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000MAR_B1.png"
+]
+},
+{
+"brand": "PremSub Stock",
+"code": "RuckShort",
+"colour": "Navy",
+"slug": "navy",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000NAV_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000NAV_B1.png"
+]
+},
+{
+"brand": "PremSub Stock",
+"code": "RuckShort",
+"colour": "Royal",
+"slug": "royal",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000ROY_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000ROY_B1.png"
+]
+},
+{
+"brand": "PremSub Stock",
+"code": "RuckShort",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000WHT_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/PRECDE2000_PRECDE2000WHT_B1.png"
 ]
 },
 {
@@ -14424,18 +15799,6 @@
 {
 "brand": "Champion",
 "code": "S101",
-"colour": "Cardinal",
-"slug": "cardinal",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/S101_S101CAR_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/S101_S101CAR_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/S101_S101CAR_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/S101_S101CAR_D1.jpg"
-]
-},
-{
-"brand": "Champion",
-"code": "S101",
 "colour": "C Gold",
 "slug": "c-gold",
 "urls": [
@@ -14443,6 +15806,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/S101_S101CG_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/S101_S101CG_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/S101_S101CG_D1.jpg"
+]
+},
+{
+"brand": "Champion",
+"code": "S101",
+"colour": "Cardinal",
+"slug": "cardinal",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/S101_S101CAR_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/S101_S101CAR_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/S101_S101CAR_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/S101_S101CAR_D1.jpg"
 ]
 },
 {
@@ -14974,16 +16349,6 @@
 {
 "brand": "Spiro",
 "code": "S287B",
-"colour": "Irish Green",
-"slug": "irish-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/S287J_S287JGI_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/S287J_S287JGI_B1.png"
-]
-},
-{
-"brand": "Spiro",
-"code": "S287B",
 "colour": "Gold",
 "slug": "gold",
 "urls": [
@@ -14999,6 +16364,16 @@
 "urls": [
 "https://ik.imagekit.io/premiumapparel/live2/S287J_S287JGR_A1.png",
 "https://ik.imagekit.io/premiumapparel/live2/S287J_S287JGR_B1.png"
+]
+},
+{
+"brand": "Spiro",
+"code": "S287B",
+"colour": "Irish Green",
+"slug": "irish-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/S287J_S287JGI_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/S287J_S287JGI_B1.png"
 ]
 },
 {
@@ -15151,16 +16526,6 @@
 {
 "brand": "Spiro",
 "code": "S287X",
-"colour": "Irish Green",
-"slug": "irish-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/S287X_S287XGI_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/S287X_S287XGI_B1.png"
-]
-},
-{
-"brand": "Spiro",
-"code": "S287X",
 "colour": "Gold",
 "slug": "gold",
 "urls": [
@@ -15176,6 +16541,16 @@
 "urls": [
 "https://ik.imagekit.io/premiumapparel/live2/S287X_S287XGR_A1.png",
 "https://ik.imagekit.io/premiumapparel/live2/S287X_S287XGR_B1.png"
+]
+},
+{
+"brand": "Spiro",
+"code": "S287X",
+"colour": "Irish Green",
+"slug": "irish-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/S287X_S287XGI_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/S287X_S287XGI_B1.png"
 ]
 },
 {
@@ -15310,16 +16685,6 @@
 {
 "brand": "Spiro",
 "code": "S288B",
-"colour": "Irish Green",
-"slug": "irish-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/S288B_S288BGI_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/S288B_S288BGI_B1.png"
-]
-},
-{
-"brand": "Spiro",
-"code": "S288B",
 "colour": "Gold",
 "slug": "gold",
 "urls": [
@@ -15335,6 +16700,16 @@
 "urls": [
 "https://ik.imagekit.io/premiumapparel/live2/S288B_S288BGR_A1.png",
 "https://ik.imagekit.io/premiumapparel/live2/S288B_S288BGR_B1.png"
+]
+},
+{
+"brand": "Spiro",
+"code": "S288B",
+"colour": "Irish Green",
+"slug": "irish-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/S288B_S288BGI_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/S288B_S288BGI_B1.png"
 ]
 },
 {
@@ -15469,18 +16844,6 @@
 {
 "brand": "Spiro",
 "code": "S288X",
-"colour": "Irish Green",
-"slug": "irish-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/S288X_S288XGI_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/S288X_S288XGI_B1.png",
-"https://ik.imagekit.io/premiumapparel/live2/S288X_S288XGI_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/S288X_S288XGI_B1.png"
-]
-},
-{
-"brand": "Spiro",
-"code": "S288X",
 "colour": "Gold",
 "slug": "gold",
 "urls": [
@@ -15498,6 +16861,18 @@
 "urls": [
 "https://ik.imagekit.io/premiumapparel/live2/S288X_S288XGR_A1.png",
 "https://ik.imagekit.io/premiumapparel/live2/S288X_S288XGR_B1.png"
+]
+},
+{
+"brand": "Spiro",
+"code": "S288X",
+"colour": "Irish Green",
+"slug": "irish-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/S288X_S288XGI_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/S288X_S288XGI_B1.png",
+"https://ik.imagekit.io/premiumapparel/live2/S288X_S288XGI_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/S288X_S288XGI_B1.png"
 ]
 },
 {
@@ -15782,16 +17157,6 @@
 {
 "brand": "Spiro",
 "code": "S296B",
-"colour": "Irish Green",
-"slug": "irish-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/S296B_S296BGI_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/S296B_S296BGI_B1.png"
-]
-},
-{
-"brand": "Spiro",
-"code": "S296B",
 "colour": "Gold",
 "slug": "gold",
 "urls": [
@@ -15807,6 +17172,16 @@
 "urls": [
 "https://ik.imagekit.io/premiumapparel/live2/S296B_S296BGR_A1.png",
 "https://ik.imagekit.io/premiumapparel/live2/S296B_S296BGR_B1.png"
+]
+},
+{
+"brand": "Spiro",
+"code": "S296B",
+"colour": "Irish Green",
+"slug": "irish-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/S296B_S296BGI_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/S296B_S296BGI_B1.png"
 ]
 },
 {
@@ -15912,16 +17287,6 @@
 {
 "brand": "Spiro",
 "code": "S296X",
-"colour": "Irish Green",
-"slug": "irish-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/S296X_S296XGI_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/S296X_S296XGI_B1.png"
-]
-},
-{
-"brand": "Spiro",
-"code": "S296X",
 "colour": "Gold",
 "slug": "gold",
 "urls": [
@@ -15937,6 +17302,16 @@
 "urls": [
 "https://ik.imagekit.io/premiumapparel/live2/S296X_S296XGR_A1.png",
 "https://ik.imagekit.io/premiumapparel/live2/S296X_S296XGR_B1.png"
+]
+},
+{
+"brand": "Spiro",
+"code": "S296X",
+"colour": "Irish Green",
+"slug": "irish-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/S296X_S296XGI_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/S296X_S296XGI_B1.png"
 ]
 },
 {
@@ -16062,18 +17437,6 @@
 {
 "brand": "Champion",
 "code": "S600",
-"colour": "Gold Glint",
-"slug": "gold-glint",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/S600_S600GG_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/S600_S600GG_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/S600_S600GG_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/S600_S600GG_D1.jpg"
-]
-},
-{
-"brand": "Champion",
-"code": "S600",
 "colour": "Gold",
 "slug": "gold",
 "urls": [
@@ -16081,6 +17444,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/S600_S600GO_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/S600_S600GO_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/S600_S600GO_D1.jpg"
+]
+},
+{
+"brand": "Champion",
+"code": "S600",
+"colour": "Gold Glint",
+"slug": "gold-glint",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/S600_S600GG_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/S600_S600GG_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/S600_S600GG_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/S600_S600GG_D1.jpg"
 ]
 },
 {
@@ -16194,18 +17569,6 @@
 {
 "brand": "Champion",
 "code": "S700",
-"colour": "Body Blush",
-"slug": "body-blush",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/S700_S700BBL_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/S700_S700BBL_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/S700_S700BBL_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/S700_S700BBL_D1.jpg"
-]
-},
-{
-"brand": "Champion",
-"code": "S700",
 "colour": "Blue Lagoon",
 "slug": "blue-lagoon",
 "urls": [
@@ -16218,13 +17581,13 @@
 {
 "brand": "Champion",
 "code": "S700",
-"colour": "Chocolate Brown",
-"slug": "chocolate-brown",
+"colour": "Body Blush",
+"slug": "body-blush",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/S700_S700CBR_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/S700_S700CBR_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/S700_S700CBR_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/S700_S700CBR_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/S700_S700BBL_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/S700_S700BBL_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/S700_S700BBL_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/S700_S700BBL_D1.jpg"
 ]
 },
 {
@@ -16237,6 +17600,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/S700_S700CHE_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/S700_S700CHE_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/S700_S700CHE_D1.jpg"
+]
+},
+{
+"brand": "Champion",
+"code": "S700",
+"colour": "Chocolate Brown",
+"slug": "chocolate-brown",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/S700_S700CBR_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/S700_S700CBR_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/S700_S700CBR_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/S700_S700CBR_D1.jpg"
 ]
 },
 {
@@ -16278,18 +17653,6 @@
 {
 "brand": "Champion",
 "code": "S700",
-"colour": "Gold Glint",
-"slug": "gold-glint",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/S700_S700GG_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/S700_S700GG_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/S700_S700GG_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/S700_S700GG_D1.jpg"
-]
-},
-{
-"brand": "Champion",
-"code": "S700",
 "colour": "Gold",
 "slug": "gold",
 "urls": [
@@ -16297,6 +17660,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/S700_S700GO_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/S700_S700GO_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/S700_S700GO_D1.jpg"
+]
+},
+{
+"brand": "Champion",
+"code": "S700",
+"colour": "Gold Glint",
+"slug": "gold-glint",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/S700_S700GG_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/S700_S700GG_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/S700_S700GG_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/S700_S700GG_D1.jpg"
 ]
 },
 {
@@ -16350,6 +17725,18 @@
 {
 "brand": "Champion",
 "code": "S700",
+"colour": "Red River Clay",
+"slug": "red-river-clay",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/S700_S700RR_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/S700_S700RR_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/S700_S700RR_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/S700_S700RR_D1.jpg"
+]
+},
+{
+"brand": "Champion",
+"code": "S700",
 "colour": "Royal Blue Heather",
 "slug": "royal-blue-heather",
 "urls": [
@@ -16362,13 +17749,13 @@
 {
 "brand": "Champion",
 "code": "S700",
-"colour": "Red River Clay",
-"slug": "red-river-clay",
+"colour": "Scarlet Heather",
+"slug": "scarlet-heather",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/S700_S700RR_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/S700_S700RR_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/S700_S700RR_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/S700_S700RR_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/S700_S700SH_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/S700_S700SH_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/S700_S700SH_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/S700_S700SH_D1.jpg"
 ]
 },
 {
@@ -16393,18 +17780,6 @@
 "https://ik.imagekit.io/premiumapparel/live2/S700_S700SGRA_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/S700_S700SGRA_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/S700_S700SGRA_D1.jpg"
-]
-},
-{
-"brand": "Champion",
-"code": "S700",
-"colour": "Scarlet Heather",
-"slug": "scarlet-heather",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/S700_S700SH_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/S700_S700SH_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/S700_S700SH_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/S700_S700SH_D1.jpg"
 ]
 },
 {
@@ -16482,18 +17857,6 @@
 {
 "brand": "Gildan",
 "code": "SF000",
-"colour": "Cocoa",
-"slug": "cocoa",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/SF000_SF000CC_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/SF000_SF000CC_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/SF000_SF000CC_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/SF000_SF000CC_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "SF000",
 "colour": "Charcoal",
 "slug": "charcoal",
 "urls": [
@@ -16501,6 +17864,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/SF000_SF000CH_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/SF000_SF000CH_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/SF000_SF000CH_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "SF000",
+"colour": "Cocoa",
+"slug": "cocoa",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/SF000_SF000CC_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/SF000_SF000CC_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/SF000_SF000CC_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/SF000_SF000CC_D1.jpg"
 ]
 },
 {
@@ -16578,18 +17953,6 @@
 {
 "brand": "Gildan",
 "code": "SF000",
-"colour": "Stone Blue",
-"slug": "stone-blue",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/SF000_SF000SB_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/SF000_SF000SB_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/SF000_SF000SB_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/SF000_SF000SB_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "SF000",
 "colour": "Sport Grey",
 "slug": "sport-grey",
 "urls": [
@@ -16597,6 +17960,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/SF000_SF000SG_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/SF000_SF000SG_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/SF000_SF000SG_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "SF000",
+"colour": "Stone Blue",
+"slug": "stone-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/SF000_SF000SB_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/SF000_SF000SB_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/SF000_SF000SB_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/SF000_SF000SB_D1.jpg"
 ]
 },
 {
@@ -16626,18 +18001,6 @@
 {
 "brand": "Gildan",
 "code": "SF500",
-"colour": "Cocoa",
-"slug": "cocoa",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/SF500_SF500CC_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/SF500_SF500CC_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/SF500_SF500CC_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/SF500_SF500CC_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "SF500",
 "colour": "Charcoal",
 "slug": "charcoal",
 "urls": [
@@ -16645,6 +18008,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/SF500_SF500CH_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/SF500_SF500CH_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/SF500_SF500CH_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "SF500",
+"colour": "Cocoa",
+"slug": "cocoa",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/SF500_SF500CC_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/SF500_SF500CC_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/SF500_SF500CC_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/SF500_SF500CC_D1.jpg"
 ]
 },
 {
@@ -16782,18 +18157,6 @@
 {
 "brand": "Gildan",
 "code": "SF500",
-"colour": "Stone Blue",
-"slug": "stone-blue",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/SF500_SF500SB_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/SF500_SF500SB_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/SF500_SF500SB_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/SF500_SF500SB_D1.jpg"
-]
-},
-{
-"brand": "Gildan",
-"code": "SF500",
 "colour": "Sport Grey",
 "slug": "sport-grey",
 "urls": [
@@ -16801,6 +18164,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/SF500_SF500SG_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/SF500_SF500SG_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/SF500_SF500SG_D1.jpg"
+]
+},
+{
+"brand": "Gildan",
+"code": "SF500",
+"colour": "Stone Blue",
+"slug": "stone-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/SF500_SF500SB_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/SF500_SF500SB_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/SF500_SF500SB_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/SF500_SF500SB_D1.jpg"
 ]
 },
 {
@@ -17115,18 +18490,6 @@
 {
 "brand": "Champion",
 "code": "T425",
-"colour": "Athletic Royal",
-"slug": "athletic-royal",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425ARO_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425ARO_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425ARO_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425ARO_D1.jpg"
-]
-},
-{
-"brand": "Champion",
-"code": "T425",
 "colour": "Ash",
 "slug": "ash",
 "urls": [
@@ -17139,13 +18502,25 @@
 {
 "brand": "Champion",
 "code": "T425",
-"colour": "Body Blush",
-"slug": "body-blush",
+"colour": "Athletic Royal",
+"slug": "athletic-royal",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425BBL_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425BBL_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425BBL_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425BBL_D1.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425ARO_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425ARO_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425ARO_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425ARO_D1.jpg"
+]
+},
+{
+"brand": "Champion",
+"code": "T425",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425BL_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425BL_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425BL_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425BL_D1.jpg"
 ]
 },
 {
@@ -17158,6 +18533,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/T425_T425BLAG_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/T425_T425BLAG_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/T425_T425BLAG_D1.jpg"
+]
+},
+{
+"brand": "Champion",
+"code": "T425",
+"colour": "Body Blush",
+"slug": "body-blush",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425BBL_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425BBL_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425BBL_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425BBL_D1.jpg"
 ]
 },
 {
@@ -17182,6 +18569,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/T425_T425CHE_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/T425_T425CHE_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/T425_T425CHE_D1.jpg"
+]
+},
+{
+"brand": "Champion",
+"code": "T425",
+"colour": "Dark Green",
+"slug": "dark-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425DG_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425DG_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425DG_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425DG_D1.jpg"
 ]
 },
 {
@@ -17223,18 +18622,6 @@
 {
 "brand": "Champion",
 "code": "T425",
-"colour": "Light Blue",
-"slug": "light-blue",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425LB_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425LB_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425LB_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425LB_D1.jpg"
-]
-},
-{
-"brand": "Champion",
-"code": "T425",
 "colour": "Late Night Blue",
 "slug": "late-night-blue",
 "urls": [
@@ -17247,6 +18634,30 @@
 {
 "brand": "Champion",
 "code": "T425",
+"colour": "Light Blue",
+"slug": "light-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425LB_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425LB_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425LB_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425LB_D1.jpg"
+]
+},
+{
+"brand": "Champion",
+"code": "T425",
+"colour": "Light Steel",
+"slug": "light-steel",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425LS_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425LS_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425LS_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425LS_D1.jpg"
+]
+},
+{
+"brand": "Champion",
+"code": "T425",
 "colour": "Maroon",
 "slug": "maroon",
 "urls": [
@@ -17254,6 +18665,18 @@
 "https://ik.imagekit.io/premiumapparel/live2/T425_T425MA_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/T425_T425MA_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/T425_T425MA_D1.jpg"
+]
+},
+{
+"brand": "Champion",
+"code": "T425",
+"colour": "Navy",
+"slug": "navy",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425NY_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425NY_B1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425NY_C1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/T425_T425NY_D1.jpg"
 ]
 },
 {
@@ -17326,54 +18749,6 @@
 "https://ik.imagekit.io/premiumapparel/live2/T425_T425SGRA_B1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/T425_T425SGRA_C1.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/T425_T425SGRA_D1.jpg"
-]
-},
-{
-"brand": "Champion",
-"code": "T425",
-"colour": "Black",
-"slug": "black",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425BL_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425BL_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425BL_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425BL_D1.jpg"
-]
-},
-{
-"brand": "Champion",
-"code": "T425",
-"colour": "Dark Green",
-"slug": "dark-green",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425DG_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425DG_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425DG_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425DG_D1.jpg"
-]
-},
-{
-"brand": "Champion",
-"code": "T425",
-"colour": "Light Steel",
-"slug": "light-steel",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425LS_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425LS_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425LS_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425LS_D1.jpg"
-]
-},
-{
-"brand": "Champion",
-"code": "T425",
-"colour": "Navy",
-"slug": "navy",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425NY_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425NY_B1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425NY_C1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/T425_T425NY_D1.jpg"
 ]
 },
 {
@@ -17475,6 +18850,18 @@
 {
 "brand": "UFlex",
 "code": "U20900",
+"colour": "Cardinal Red",
+"slug": "cardinal-red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/HU20900_HU20900CR_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU20900_HU20900CR_A2.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU20900_HU20900CR_A3.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU20900_HU20900CR_A4.jpg"
+]
+},
+{
+"brand": "UFlex",
+"code": "U20900",
 "colour": "Charcoal Melange",
 "slug": "charcoal-melange",
 "urls": [
@@ -17482,18 +18869,6 @@
 "https://ik.imagekit.io/premiumapparel/live2/HU20900_HU20900CHM_A2.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/HU20900_HU20900CHM_A3.jpg",
 "https://ik.imagekit.io/premiumapparel/live2/HU20900_HU20900CHM_A4.jpg"
-]
-},
-{
-"brand": "UFlex",
-"code": "U20900",
-"colour": "Cream",
-"slug": "cream",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/HU20900_HU20900NA_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU20900_HU20900NA_A2.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU20900_HU20900NA_A3.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU20900_HU20900NA_A4.jpg"
 ]
 },
 {
@@ -17511,13 +18886,13 @@
 {
 "brand": "UFlex",
 "code": "U20900",
-"colour": "Cardinal Red",
-"slug": "cardinal-red",
+"colour": "Cream",
+"slug": "cream",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/HU20900_HU20900CR_A1.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU20900_HU20900CR_A2.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU20900_HU20900CR_A3.jpg",
-"https://ik.imagekit.io/premiumapparel/live2/HU20900_HU20900CR_A4.jpg"
+"https://ik.imagekit.io/premiumapparel/live2/HU20900_HU20900NA_A1.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU20900_HU20900NA_A2.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU20900_HU20900NA_A3.jpg",
+"https://ik.imagekit.io/premiumapparel/live2/HU20900_HU20900NA_A4.jpg"
 ]
 },
 {
@@ -18671,16 +20046,6 @@
 {
 "brand": "Urban Collab",
 "code": "UCH320L",
-"colour": "Pitch Black",
-"slug": "pitch-black",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/UCH320L_UCH320LPB_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/UCH320L_UCH320LPI_B1.png"
-]
-},
-{
-"brand": "Urban Collab",
-"code": "UCH320L",
 "colour": "Dusty Rose",
 "slug": "dusty-rose",
 "urls": [
@@ -18726,6 +20091,16 @@
 "urls": [
 "https://ik.imagekit.io/premiumapparel/live2/UCH320L_UCH320LNY_A1.png",
 "https://ik.imagekit.io/premiumapparel/live2/UCH320L_UCH320LNY_B1.png"
+]
+},
+{
+"brand": "Urban Collab",
+"code": "UCH320L",
+"colour": "Pitch Black",
+"slug": "pitch-black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/UCH320L_UCH320LPB_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/UCH320L_UCH320LPI_B1.png"
 ]
 },
 {
@@ -19041,16 +20416,6 @@
 {
 "brand": "Urban Collab",
 "code": "UCS180L",
-"colour": "Pitch Black",
-"slug": "pitch-black",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/UCS180L_UCS180LPB_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/UCS180L_UCS180LPB_B1.png"
-]
-},
-{
-"brand": "Urban Collab",
-"code": "UCS180L",
 "colour": "Copper",
 "slug": "copper",
 "urls": [
@@ -19101,6 +20466,16 @@
 {
 "brand": "Urban Collab",
 "code": "UCS180L",
+"colour": "Pitch Black",
+"slug": "pitch-black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/UCS180L_UCS180LPB_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/UCS180L_UCS180LPB_B1.png"
+]
+},
+{
+"brand": "Urban Collab",
+"code": "UCS180L",
 "colour": "White",
 "slug": "white",
 "urls": [
@@ -19111,71 +20486,21 @@
 {
 "brand": "Urban Collab",
 "code": "UCT180",
-"colour": "Heather Slate",
-"slug": "heather-slate",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180HSL_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180HSL_B1.png"
-]
-},
-{
-"brand": "Urban Collab",
-"code": "UCT180",
-"colour": "Maroon",
-"slug": "maroon",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180MA_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180MA_B1.png"
-]
-},
-{
-"brand": "Urban Collab",
-"code": "UCT180",
-"colour": "Red",
-"slug": "red",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180RE_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180RE_B1.png"
-]
-},
-{
-"brand": "Urban Collab",
-"code": "UCT180",
-"colour": "Royal",
-"slug": "royal",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180RO_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180RO_B1.png"
-]
-},
-{
-"brand": "Urban Collab",
-"code": "UCT180",
-"colour": "Stone Blue",
-"slug": "stone-blue",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180SB_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180SB_B1.png"
-]
-},
-{
-"brand": "Urban Collab",
-"code": "UCT180",
-"colour": "Smoke",
-"slug": "smoke",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180SMK_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180SMK_B1.png"
-]
-},
-{
-"brand": "Urban Collab",
-"code": "UCT180",
 "colour": "Alabaster",
 "slug": "alabaster",
 "urls": [
 "https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180AL_A1.png",
 "https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180AL_B1.png"
+]
+},
+{
+"brand": "Urban Collab",
+"code": "UCT180",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180PB_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180PB_B1.png"
 ]
 },
 {
@@ -19201,21 +20526,21 @@
 {
 "brand": "Urban Collab",
 "code": "UCT180",
-"colour": "Copper",
-"slug": "copper",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180CO_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180CO_B1.png"
-]
-},
-{
-"brand": "Urban Collab",
-"code": "UCT180",
 "colour": "Champagne",
 "slug": "champagne",
 "urls": [
 "https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180CP_A1.png",
 "https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180CP_B1.png"
+]
+},
+{
+"brand": "Urban Collab",
+"code": "UCT180",
+"colour": "Copper",
+"slug": "copper",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180CO_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180CO_B1.png"
 ]
 },
 {
@@ -19271,6 +20596,36 @@
 {
 "brand": "Urban Collab",
 "code": "UCT180",
+"colour": "Heather Slate",
+"slug": "heather-slate",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180HSL_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180HSL_B1.png"
+]
+},
+{
+"brand": "Urban Collab",
+"code": "UCT180",
+"colour": "Lilac",
+"slug": "lilac",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180LI_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180LI_B1.png"
+]
+},
+{
+"brand": "Urban Collab",
+"code": "UCT180",
+"colour": "Maroon",
+"slug": "maroon",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180MA_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180MA_B1.png"
+]
+},
+{
+"brand": "Urban Collab",
+"code": "UCT180",
 "colour": "Military Green",
 "slug": "military-green",
 "urls": [
@@ -19291,16 +20646,6 @@
 {
 "brand": "Urban Collab",
 "code": "UCT180",
-"colour": "Black",
-"slug": "black",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180PB_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180PB_B1.png"
-]
-},
-{
-"brand": "Urban Collab",
-"code": "UCT180",
 "colour": "Pistachio",
 "slug": "pistachio",
 "urls": [
@@ -19311,11 +20656,41 @@
 {
 "brand": "Urban Collab",
 "code": "UCT180",
-"colour": "Lilac",
-"slug": "lilac",
+"colour": "Red",
+"slug": "red",
 "urls": [
-"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180LI_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180LI_B1.png"
+"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180RE_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180RE_B1.png"
+]
+},
+{
+"brand": "Urban Collab",
+"code": "UCT180",
+"colour": "Royal",
+"slug": "royal",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180RO_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180RO_B1.png"
+]
+},
+{
+"brand": "Urban Collab",
+"code": "UCT180",
+"colour": "Smoke",
+"slug": "smoke",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180SMK_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180SMK_B1.png"
+]
+},
+{
+"brand": "Urban Collab",
+"code": "UCT180",
+"colour": "Stone Blue",
+"slug": "stone-blue",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180SB_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/UCT180_UCT180SB_B1.png"
 ]
 },
 {
@@ -19571,6 +20946,16 @@
 {
 "brand": "Urban Collab",
 "code": "UCT280",
+"colour": "Black",
+"slug": "black",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/UCT280_UCT280PB_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/UCT280_UCT280PB_B1.png"
+]
+},
+{
+"brand": "Urban Collab",
+"code": "UCT280",
 "colour": "Dark Forest",
 "slug": "dark-forest",
 "urls": [
@@ -19616,16 +21001,6 @@
 "urls": [
 "https://ik.imagekit.io/premiumapparel/live2/UCT280_UCT280NY_A1.png",
 "https://ik.imagekit.io/premiumapparel/live2/UCT280_UCT280NY_B1.png"
-]
-},
-{
-"brand": "Urban Collab",
-"code": "UCT280",
-"colour": "Black",
-"slug": "black",
-"urls": [
-"https://ik.imagekit.io/premiumapparel/live2/UCT280_UCT280PB_A1.png",
-"https://ik.imagekit.io/premiumapparel/live2/UCT280_UCT280PB_B1.png"
 ]
 },
 {
@@ -19896,6 +21271,115 @@
 "https://ik.imagekit.io/premiumapparel/live2/HV6038_HV6038YE_B1.png",
 "https://ik.imagekit.io/premiumapparel/live2/HV6038_HV6038YE_C1.png",
 "https://ik.imagekit.io/premiumapparel/live2/HV6038_HV6038YE_D1.png"
+]
+},
+{
+"brand": "Result",
+"code": "ZIP_PULLER",
+"colour": "Burgundy",
+"slug": "burgundy",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/Zip_Burgundy_A1.png"
+]
+},
+{
+"brand": "Result",
+"code": "ZIP_PULLER",
+"colour": "Green",
+"slug": "green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/Zip_Green_A1.png"
+]
+},
+{
+"brand": "Result",
+"code": "ZIP_PULLER",
+"colour": "Grey",
+"slug": "grey",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/Zip_Grey_A1.png"
+]
+},
+{
+"brand": "Result",
+"code": "ZIP_PULLER",
+"colour": "Hot Pink",
+"slug": "hot-pink",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/Zip_HotPink_A1.png"
+]
+},
+{
+"brand": "Result",
+"code": "ZIP_PULLER",
+"colour": "Lime",
+"slug": "lime",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/Zip_Lime_A1.png"
+]
+},
+{
+"brand": "Result",
+"code": "ZIP_PULLER",
+"colour": "Orange",
+"slug": "orange",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/Zip_Orange_A1.png"
+]
+},
+{
+"brand": "Result",
+"code": "ZIP_PULLER",
+"colour": "Purple",
+"slug": "purple",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/Zip_Purple_A1.png"
+]
+},
+{
+"brand": "Result",
+"code": "ZIP_PULLER",
+"colour": "Red",
+"slug": "red",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/Zip_Red_A1.png"
+]
+},
+{
+"brand": "Result",
+"code": "ZIP_PULLER",
+"colour": "Royal",
+"slug": "royal",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/Zip_Royal_A1.png"
+]
+},
+{
+"brand": "Result",
+"code": "ZIP_PULLER",
+"colour": "Safety Green",
+"slug": "safety-green",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/Zip_SafetyGreen_A1.png"
+]
+},
+{
+"brand": "Result",
+"code": "ZIP_PULLER",
+"colour": "Sapphire",
+"slug": "sapphire",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/Zip_Sapphire_A1.png"
+]
+},
+{
+"brand": "Result",
+"code": "ZIP_PULLER",
+"colour": "White",
+"slug": "white",
+"urls": [
+"https://ik.imagekit.io/premiumapparel/live2/Zip_White_A1.png",
+"https://ik.imagekit.io/premiumapparel/live2/Zip_White_A1.png"
 ]
 }
 ]
