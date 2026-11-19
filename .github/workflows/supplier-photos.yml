@@ -1,0 +1,37 @@
+# Weekly photos from Thread Project's stock file and Cloke's API (20 Nov 2026, his call): new colours get a front photo,
+# photos already in the library are left alone, and colours they've dropped are only listed (tools/feed_photos_report.json)
+name: Supplier photos (Thread Project, Cloke)
+on:
+  schedule:
+    - cron: '37 14 * * 6'   # Sunday 3:37am NZ
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: supplier-photos
+  cancel-in-progress: false
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -q paramiko openpyxl pillow numpy scipy
+      - name: Photos
+        env:
+          TP_PASS: ${{ secrets.TP_SFTP_PASS }}
+          TP_HOST: ${{ secrets.TP_SFTP_HOST }}
+          TP_USER: ${{ secrets.TP_SFTP_USER }}
+          CLOKE_USER: ${{ secrets.CLOKE_USER }}
+          CLOKE_PASS: ${{ secrets.CLOKE_PASS }}
+          CLOKE_KEY: ${{ secrets.CLOKE_KEY }}
+        run: python3 tools/feed_photos.py && python3 tools/measure_all.py
+      - name: Save
+        run: |
+          git config user.name "uniformly-photos bot"; git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Supplier photos (weekly)" || { echo "nothing new"; exit 0; }
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
