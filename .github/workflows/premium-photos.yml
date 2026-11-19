@@ -1,0 +1,37 @@
+# Premium Apparel photos (20 Nov 2026): downloads them from Premium Apparel, shrinks them to webp, adds them to photos.json and
+# measures them for mockups. Runs only when started. mode=sample just saves thumbnails to look at (on the branch it's run on).
+name: Premium Apparel photos
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'sample or full'
+        required: true
+        default: sample
+        type: choice
+        options: [sample, full]
+permissions:
+  contents: write
+concurrency:
+  group: pa-photos
+  cancel-in-progress: false
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -q requests pillow numpy scipy
+      - name: Photos
+        run: |
+          if [ "${{ inputs.mode }}" = "sample" ]; then python3 tools/pa_photos.py sample tools/pa_sample.json
+          else python3 tools/pa_photos.py full tools/pa_list.json && python3 tools/measure_all.py; fi
+      - name: Save
+        run: |
+          git config user.name "uniformly-photos bot"; git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Premium Apparel photos (${{ inputs.mode }})" || { echo "nothing new"; exit 0; }
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
