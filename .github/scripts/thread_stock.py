@@ -120,8 +120,13 @@ def cloke_stock():
     if top == 99: o['capped'] = 99
     return o
 
-try: ck = cloke_stock()
-except Exception as e: print('Cloke: failed (%s)' % type(e).__name__); ck = None
+# 20 Nov 2026 (his call): go easy on suppliers' servers. Cloke's API is read every 3 hours, not every run
+# (their logins are being refused at the moment, so this also stops a failed login every 15 minutes)
+ck = None
+if time.gmtime().tm_hour % 3 == 0:
+    try: ck = cloke_stock()
+    except Exception as e: print('Cloke: failed (%s)' % type(e).__name__); ck = None
+else: print('Cloke: not this hour (every 3 hours)')
 
 repo = 'https://x-access-token:%s@github.com/%s.git' % (os.environ['GH_TOKEN'], os.environ['GITHUB_REPOSITORY'])
 d = tempfile.mkdtemp()
