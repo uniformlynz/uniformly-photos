@@ -8,7 +8,7 @@ from concurrent.futures import ThreadPoolExecutor
 import requests
 from PIL import Image
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
-S = requests.Session(); S.headers['User-Agent'] = 'Mozilla/5.0 (Uniformly photo library)'
+S = requests.Session(); S.headers['User-Agent'] = 'Mozilla/5.0 (photo sync)'   # nothing about him or the business in it (his rule)
 def get(url):
     for i in range(3):
         try:

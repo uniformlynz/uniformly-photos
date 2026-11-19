@@ -8,7 +8,7 @@ from concurrent.futures import ThreadPoolExecutor
 import requests
 from PIL import Image
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
-S = requests.Session(); S.headers['User-Agent'] = 'Mozilla/5.0 (Uniformly photo library)'
+S = requests.Session(); S.headers['User-Agent'] = 'Mozilla/5.0 (photo sync)'   # nothing about him or the business in it (his rule)
 def get(url):
     for i in range(3):
         try:
@@ -47,6 +47,11 @@ def full(lst):
         d = os.path.join(base, x['code'].lower()); os.makedirs(d, exist_ok=True); paths = []
         roles = {}
         rels = {r: 'premium-apparel/%s/%s-%s.webp' % (x['code'].lower(), x['slug'], r) for r in ('front', 'back', 'model')}
+        have = {r: os.path.exists(os.path.join(ROOT, rels[r])) for r in rels}
+        if have['front'] and not x.get('refresh'):   # already in the library: kept as it is, nothing downloaded
+            for role in ('front', 'back', 'model'):
+                if have[role]: keep.add(rels[role]); paths.append(rels[role])
+            got[(x['brand'], x['code'], x['colour'])] = paths; rep['ok'] += 1; return
         flats, models = [], []
         for u in x['urls']:
             b, st = get(u)
@@ -79,6 +84,25 @@ def full(lst):
     json.dump(P, open(os.path.join(ROOT, 'photos.json'), 'w'), separators=(',', ':'))
     json.dump(rep, open(os.path.join(HERE, 'pa_report.json'), 'w'), indent=0)
     print('colours with photos', rep['ok'], 'missing', len(rep['missing']), 'no flat shot', len(rep['noflat']))
+def weekly(lf):
+    """20 Nov 2026 (his call): once a week, new colours on the styles he carries get their photos, and colours they've
+    dropped come out. The styles are the ones in the list; the colours and photos come fresh from their catalogue"""
+    import re
+    base = json.load(open(lf)); codes = {x['code']: x['brand'] for x in base}
+    r = S.get('https://api.premiumapparel.co.nz/v1/products', timeout=120); r.raise_for_status()
+    prods = r.json(); prods = prods.get('products') if isinstance(prods, dict) else prods
+    slug = lambda c: re.sub(r'[^a-z0-9]+', '-', c.lower()).strip('-')
+    lst = []
+    for P in prods or []:
+        code = str(P.get('style') or '').strip()
+        if code not in codes: continue
+        for c in P.get('colours') or []:
+            col = re.sub(r'\s+', ' ', str(c.get('description') or c.get('name') or '')).strip()
+            if col and c.get('images') and c.get('sizes'): lst.append({'brand': codes[code], 'code': code, 'colour': col, 'slug': slug(col), 'urls': c['images'][:4]})
+    # styles whose photos came from another listing keep their entry from the list
+    seen = {x['code'] for x in lst}; lst += [x for x in base if x['code'] not in seen]
+    json.dump(lst, open(lf, 'w'), indent=0, ensure_ascii=False)
+    full(lst)
 if __name__ == '__main__':
     mode, lf = sys.argv[1], sys.argv[2]; lst = json.load(open(lf))
-    sample(lst) if mode == 'sample' else full(lst)
+    sample(lst) if mode == 'sample' else (weekly(lf) if mode == 'weekly' else full(lst))

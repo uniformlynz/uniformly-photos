@@ -2,6 +2,9 @@
 # measures them for mockups. Runs only when started. mode=sample just saves thumbnails to look at (on the branch it's run on).
 name: Premium Apparel photos
 on:
+  # 20 Nov 2026 (his call): once a week (Sunday 3:17am NZ), new colours get their photos and dropped ones come out
+  schedule:
+    - cron: '17 14 * * 6'
   workflow_dispatch:
     inputs:
       mode:
@@ -27,11 +30,12 @@ jobs:
       - run: pip install -q requests pillow numpy scipy
       - name: Photos
         run: |
-          if [ "${{ inputs.mode }}" = "sample" ]; then python3 tools/pa_photos.py sample tools/pa_sample.json
+          if [ "${{ github.event_name }}" = "schedule" ]; then python3 tools/pa_photos.py weekly tools/pa_list.json && python3 tools/measure_all.py
+          elif [ "${{ inputs.mode }}" = "sample" ]; then python3 tools/pa_photos.py sample tools/pa_sample.json
           else python3 tools/pa_photos.py full tools/pa_list.json && python3 tools/measure_all.py; fi
       - name: Save
         run: |
           git config user.name "uniformly-photos bot"; git config user.email "actions@users.noreply.github.com"
           git add -A
-          git commit -q -m "Premium Apparel photos (${{ inputs.mode }})" || { echo "nothing new"; exit 0; }
+          git commit -q -m "Premium Apparel photos (${{ inputs.mode || 'weekly' }})" || { echo "nothing new"; exit 0; }
           for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
