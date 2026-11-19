@@ -93,9 +93,13 @@ def add(P, brand, folder, feed, new_styles):
     for code, cols in sorted(feed.items()):
         cu = code.upper()
         if cu not in have and not new_styles: continue
-        cur = have.setdefault(cu, {}); hn = {norm(c) for c in cur}
+        cur = have.setdefault(cu, {}); hn = {norm(c) for c in cur}; fn = {norm(c) for c in cols}
+        # a colour the library has under a fuller name the feed doesn't use (library "White/Black", feed "White") is
+        # the same colour: not added again
+        spare = [h for h in hn if h not in fn]
         for col, url in sorted(cols.items()):
             if norm(col) in hn or not url: continue
+            if any(h.startswith(norm(col)) or norm(col).startswith(h) for h in spare): continue
             b = fetch(url)
             if not b: continue
             try: im = rgb(Image.open(io.BytesIO(b)))
@@ -104,7 +108,6 @@ def add(P, brand, folder, feed, new_styles):
             rel = '%s/%s/%s-front.webp' % (folder, code.lower(), slug(col)); os.makedirs(os.path.dirname(os.path.join(ROOT, rel)), exist_ok=True)
             im.save(os.path.join(ROOT, rel), 'WEBP', quality=82, method=6)
             cur[col] = [rel]; added.append([code, col]); time.sleep(0.5)
-        fn = {norm(c) for c in cols}
         gone += [[code, c] for c in cur if norm(c) not in fn]
         if not cur: del have[cu]
     return added, gone
