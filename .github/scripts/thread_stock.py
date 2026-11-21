@@ -66,15 +66,21 @@ out = {'sup': 'Thread Project', 'file': 'Thread Project stock',   # 17 Nov 2026:
 # ---- Cloke: their API, stock only ----
 def cloke_stock():
     import urllib.request, urllib.error
-    u = os.environ.get('CLOKE_USER'); tries = [x for x in (os.environ.get('CLOKE_PASS'), os.environ.get('CLOKE_KEY')) if x]
-    if not u or not tries: print('Cloke: no secrets yet, skipped'); return None
+    # 21 Nov 2026: Cloke's login is the API key as the username and the API password as the password (tested), so that
+    # goes first; the old username pairings are only a fallback. Names only in the log, never a secret
+    u, pw, key = os.environ.get('CLOKE_USER'), os.environ.get('CLOKE_PASS'), os.environ.get('CLOKE_KEY')
+    tries = []
+    if key and pw: tries.append(('API key + password', key, pw))
+    if u and pw: tries.append(('user + password', u, pw))
+    if u and key: tries.append(('user + API key', u, key))
+    if not tries: print('Cloke: no secrets yet, skipped'); return None
     auth = None
-    for p in tries:   # the password, then the API key if Cloke turn the password down
-        a = 'Basic ' + base64.b64encode(('%s:%s' % (u, p)).encode()).decode()
+    for nm, x, y in tries[:3]:
+        a = 'Basic ' + base64.b64encode(('%s:%s' % (x, y)).encode()).decode()
         try:
             with urllib.request.urlopen(urllib.request.Request('https://apical.beyondexpectations.co.nz/api/banbury/products?pageNum=1&pageSize=1', headers={'Authorization': a, 'Accept': 'application/json', 'User-Agent': 'stock-sync'}), timeout=60) as r: r.read()
-            auth = a; break
-        except urllib.error.HTTPError as e: print('Cloke: login said %d' % e.code)
+            auth = a; print('Cloke: logged in with the %s' % nm); break
+        except urllib.error.HTTPError as e: print('Cloke: %s said %d' % (nm, e.code))
     if not auth: return None
     low = lambda o: {re.sub(r'[\s_\-]', '', k.lower()): v for k, v in o.items()} if isinstance(o, dict) else {}
     def get(o, *ns):
